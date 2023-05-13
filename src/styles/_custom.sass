@@ -2,18 +2,45 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 12%
+    right: 69%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 14%
+    right: 20%
+  &-3
+    animation: float3 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
+    right: 2%
 
+
+
+.banner-principal
+  .banner-principal__row
+    .banner-principal__img
+      padding-bottom: 0px !important
+      padding-top: 7rem !important
+      padding-right: 0px !important
+    .banner-principal__info
+      .banner-principal__componente h1
+        color: #12263F
+      .banner-principal__descripcion p
+        color: #12263F
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateY(10px) translateX(5px) rotate(0)
   100%
-    transform: translateY(0px)
+    transform: translateY(0px) translateX(0px) rotate(-10deg)
+@keyframes float2
+  0%
+    transform: translateY(10px) translateX(10px) rotate(0)
+  100%
+    transform: translateY(0px) translateX(0px) rotate(-15deg)
+@keyframes float3
+  0%
+    transform: translateY(5px) translateX(10px) rotate(-5deg)
+  100%
+    transform: translateY(10px) translateX(0px) rotate(5deg)
