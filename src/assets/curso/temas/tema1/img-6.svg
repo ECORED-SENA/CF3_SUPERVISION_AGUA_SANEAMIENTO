@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="837" height="427" viewBox="0 0 837 427">
+  <defs>
+    <filter id="Elipse_8346" x="289" y="155" width="255" height="122" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_346673" x="321" y="36" width="196" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_346676" x="0" y="0" width="225" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_346680" x="612" y="0" width="225" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_346679" x="0" y="238" width="225" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_346682" x="612" y="238" width="225" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_346677" x="0" y="100" width="225" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_346681" x="612" y="100" width="225" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_346678" x="0" y="338" width="225" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_346683" x="612" y="338" width="225" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_346675" x="321" y="308" width="196" height="88" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1002735" data-name="Grupo 1002735" transform="translate(-382 -1328)">
+    <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Elipse_8346)">
+      <ellipse id="Elipse_8346-2" data-name="Elipse 8346" cx="118.5" cy="52" rx="118.5" ry="52" transform="translate(298 161)" fill="#008b8a"/>
+    </g>
+    <text id="Muestra" transform="translate(760 1549)" fill="#fff" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Muestra</tspan></text>
+    <path id="Trazado_712073" data-name="Trazado 712073" d="M-7311-10304.437v-38.391" transform="translate(8109.502 11790.288)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712077" data-name="Trazado 712077" d="M-7311-10005.368v-337.462" transform="translate(7951.029 11713.214)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712074" data-name="Trazado 712074" d="M-7311-10304.437v-38.391" transform="translate(8109.502 11936.547)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Rectángulo_346673)">
+      <rect id="Rectángulo_346673-2" data-name="Rectángulo 346673" width="178" height="71" transform="translate(330 42)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Rectángulo_346676)">
+      <rect id="Rectángulo_346676-2" data-name="Rectángulo 346676" width="207" height="71" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Rectángulo_346680)">
+      <rect id="Rectángulo_346680-2" data-name="Rectángulo 346680" width="207" height="71" transform="translate(621 6)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Rectángulo_346679)">
+      <rect id="Rectángulo_346679-2" data-name="Rectángulo 346679" width="207" height="71" transform="translate(9 244)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Rectángulo_346682)">
+      <rect id="Rectángulo_346682-2" data-name="Rectángulo 346682" width="207" height="71" transform="translate(621 244)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Rectángulo_346677)">
+      <rect id="Rectángulo_346677-2" data-name="Rectángulo 346677" width="207" height="71" transform="translate(9 106)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Rectángulo_346681)">
+      <rect id="Rectángulo_346681-2" data-name="Rectángulo 346681" width="207" height="71" transform="translate(621 106)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Rectángulo_346678)">
+      <rect id="Rectángulo_346678-2" data-name="Rectángulo 346678" width="207" height="71" transform="translate(9 344)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Rectángulo_346683)">
+      <rect id="Rectángulo_346683-2" data-name="Rectángulo 346683" width="207" height="71" transform="translate(621 344)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Rectángulo_346675)">
+      <rect id="Rectángulo_346675-2" data-name="Rectángulo 346675" width="178" height="70" transform="translate(330 314)" fill="#fff"/>
+    </g>
+    <text id="Cadena_de_custodia" data-name="Cadena
+de custodia" transform="translate(798 1401)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-28.766" y="0">Cadena</tspan><tspan x="-43.94" y="22">de custodia</tspan></text>
+    <text id="Identificación_de_la_población" data-name="Identificación
+de la población" transform="translate(489 1364)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-50.967" y="0">Identificación</tspan><tspan x="-57.313" y="22">de la población</tspan></text>
+    <text id="Tipo_de_muestra" data-name="Tipo de 
+muestra" transform="translate(1103 1364)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-30.256" y="0">Tipo de </tspan><tspan x="-31.132" y="22">muestra</tspan></text>
+    <text id="POE_muestreo" data-name="POE muestreo" transform="translate(489 1614)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-54.167" y="0">POE muestreo</tspan></text>
+    <text id="Número_de_muestra" data-name="Número
+de muestra" transform="translate(490 1464)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-30.339" y="0">Número</tspan><tspan x="-42.533" y="22">de muestra</tspan></text>
+    <text id="Tamaño_de_la_muestra" data-name="Tamaño de
+la muestra" transform="translate(1102 1464)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-42.239" y="0">Tamaño de</tspan><tspan x="-39.923" y="22">la muestra</tspan></text>
+    <text id="Calibración_y_muestreo" data-name="Calibración
+y muestreo" transform="translate(1102 1600)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-42.434" y="0">Calibración</tspan><tspan x="-42.151" y="22">y muestreo</tspan></text>
+    <text id="Muestra_tratamiento_de_los_recipientes" data-name="Muestra tratamiento
+de los recipientes" transform="translate(489 1702)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-76.965" y="0">Muestra tratamiento</tspan><tspan x="-66.377" y="22">de los recipientes</tspan></text>
+    <text id="Tiempo_de_almacenamiento" data-name="Tiempo de 
+almacenamiento" transform="translate(1098 1702)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-42.209" y="0">Tiempo de </tspan><tspan x="-63.273" y="22">almacenamiento</tspan></text>
+    <text id="Submuestreo" transform="translate(796 1684)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-50.523" y="0">Submuestreo</tspan></text>
+    <path id="Trazado_712075" data-name="Trazado 712075" d="M0,38.391V0" transform="translate(640.81 1539.785) rotate(-90)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712078" data-name="Trazado 712078" d="M0,38.391V0" transform="translate(604.073 1370.384) rotate(-90)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712081" data-name="Trazado 712081" d="M0,38.391V0" transform="translate(604.073 1608.76) rotate(-90)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712079" data-name="Trazado 712079" d="M0,38.391V0" transform="translate(604.073 1468.137) rotate(-90)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712080" data-name="Trazado 712080" d="M0,38.391V0" transform="translate(604.073 1706.513) rotate(-90)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712082" data-name="Trazado 712082" d="M0,337.463V0" transform="translate(959.639 1709.176) rotate(180)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712083" data-name="Trazado 712083" d="M0,38.391V0" transform="translate(958.859 1539.776) rotate(90)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712084" data-name="Trazado 712084" d="M0,38.391V0" transform="translate(995.595 1709.179) rotate(90)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712085" data-name="Trazado 712085" d="M0,38.391V0" transform="translate(995.595 1470.803) rotate(90)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712086" data-name="Trazado 712086" d="M0,38.391V0" transform="translate(995.595 1611.423) rotate(90)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_712087" data-name="Trazado 712087" d="M0,38.391V0" transform="translate(995.595 1373.047) rotate(90)" fill="none" stroke="#12263f" stroke-width="3"/>
+  </g>
+</svg>

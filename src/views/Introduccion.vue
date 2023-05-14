@@ -9,6 +9,11 @@
           i.fas.fa-info
       h1 Introducción
     
+    p.mb-5 En este componente se presenta la forma de organizar las actividades de transporte, preservación, almacenamiento y recepción de las muestras de tal forma que estas no sean alteradas. A continuación, se puede ver un video que contextualiza.
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>

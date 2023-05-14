@@ -183,70 +183,181 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Acidez',
+      significado:
+        'capacidad de un medio acuoso para reaccionar cuantitativamente con iones hidroxilos (Icontec, 2010).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Agua potable o agua para consumo humano',
+      significado:
+        'es aquella que, por cumplir las características físicas, químicas y microbiológicas, en las condiciones señaladas en el presente decreto y demás normas que la reglamenten, es apta para consumo humano. Se utiliza en bebida directa, en la preparación de alimentos o en la higiene personal (Decreto 1575, 2007, p.1).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Aguas residuales',
+      significado:
+        'aguas que contienen residuos líquidos o materias sólidas evacuadas como desechos. (WMO, 2012). Las aguas residuales son cualquier tipo de agua cuya calidad está afectada negativamente por la influencia antropogénica. Las aguas residuales incluyen las aguas usadas, domésticas, urbanas y los residuos líquidos industriales o mineros eliminados, o las aguas que se mezclaron con las anteriores (aguas pluviales o naturales) (Ideam, s.f.).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Alcalinidad',
+      significado:
+        'capacidad de un medio acuoso para reaccionar cuantitativamente con iones hidrógeno (Icontec, 2010).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Análisis físico y químico del agua',
+      significado:
+        'son aquellos procedimientos de laboratorio que se efectúan a una muestra de agua para evaluar sus características físicas, químicas o ambas (Resolución 2115, 2007, p.1).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Calidad del agua',
+      significado:
+        'es el resultado de comparar las características físicas, químicas y microbiológicas encontradas en el agua, con el contenido de las normas que regulan la materia (Decreto 1575, 2007, p.1).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Característica',
+      significado:
+        'término usado para identificar elementos, compuestos, sustancias y microorganismos presentes en el agua para consumo humano (Resolución 2115, 2007, p.1).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Cuerpos o cursos de agua',
+      significado:
+        'corresponden a aquellos cauces o almacenamientos de agua como arroyos, quebradas, ríos, lagos, lagunas, pantanos, humedales y acuíferos que conforman el sistema hidrográfico de una cuenca geográfica. Son las aguas corrientes superficiales y subterráneas, lagos, lagunas, ciénagas, manantiales, humedales, embalses de formación natural o artificial, chucuas o madre vieja o antiguos cauces con flujos estacionales, esteros, bahías, lagunas costeras, golfos y las aguas marinas (Ideam, s.f.).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Monitoreo',
+      significado:
+        'proceso de muestreo del sistema de suministro de agua para consumo humano, que cubre espacio, tiempo y frecuencia en los puntos concertados según norma (Ideam, s.f.).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Muestra',
+      significado:
+        'toma puntual de agua en los puntos de muestreo concertados, que refleja la composición física, química y microbiológica representativa del momento, para el proceso de vigilancia de la Autoridad Sanitaria (INS, 2011, p.9).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Muestreo',
+      significado:
+        'proceso de toma de muestras que son analizadas en laboratorios para obtener información sobre la calidad del agua del sitio concertado en que fueron tomadas (INS, 2011, p.9).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Objetivos de calidad de los datos (OCD)',
+      significado:
+        'declaraciones sobre el nivel de incertidumbre que el encargado de la toma de decisiones está dispuesto a aceptar en los resultados obtenidos de datos ambientales (Icontec, 2004).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Puntos de muestreo en red de distribución',
+      significado:
+        'son aquellos sitios concertados y materializados con dispositivos de toma, donde se realiza la recolección de la muestra de agua para la vigilancia y el control (Resolución 0811, 2008).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Sustancia química peligrosa',
+      significado:
+        'cualquier químico que represente un peligro bajo uso normal o en una emergencia (Ministerio de Educación Nacional, 2015, p.11).',
     },
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Traza',
+      significado:
+        'es una cantidad mínima de una característica química encontrada en el agua analizada de la muestra o contramuestra tomada (INS, 2011, p.9).',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'American Public Health Association, American Water Works Association y Water Environment Federation. (2018). Standard Methods For the Examination of Water and Wastewater. standardmethods.org.',
+      link: 'https://www.standardmethods.org/#',
+    },
+    {
+      referencia:
+        'Instituto de hidrología, meteorología y estudios ambientales [IDEAM]. (2014). Guía para el monitoreo de vertimientos de aguas superficiales y subterráneas.',
+      link:
+        'http://www.corponor.gov.co/control_calidad/2014/Guia_monitoreo_IDEAM.pdf',
+    },
+    {
+      referencia:
+        'Instituto de hidrología, meteorología y estudios ambientales [IDEAM]. (s.f.). Glosario - Atención y participación ciudadana.',
+      link:
+        'http://www.ideam.gov.co/web/atencion-y-participacion-ciudadana/glosario',
+    },
+    {
+      referencia:
+        'Instituto de investigaciones marinas y costeras [Invermar]. (2003). Manual de técnicas analíticas para la determinación de parámetros fisicoquímicos y contaminantes marinos. Aguas sedimentos y organismos. Cargraphics- Impresión digital.',
+      link:
+        'http://www.invemar.org.co/redcostera1/invemar/docs/7010manualTecnicasanaliticas..pdf',
+    },
+    {
+      referencia:
+        'Instituto nacional de salud [INS]. (2011). Manual de instrucciones para la toma, preservación, transporte de muestras de agua para consumo humano para análisis de laboratorio. ISBN 978-958-13-0147-8.',
+      link: 'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2004). NTC-ISO 5667-3-Calidad del Agua. Muestreo. Parte 3: Directrices para la Preservación y Manejo de Muestras.',
       link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2015). NTC-ISO 6151 -Calidad del Agua. Muestreo para análisis microbiológico.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (1995). NTC-ISO 5667-1 - Calidad del Agua. Muestreo. Directrices para el diseño de programas de muestreo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (1995). NTC-ISO 5667-2 - Gestión ambiental. Calidad del agua. Muestreo. Técnicas generales de muestreo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2004). GTC 100 - Calidad del agua. Guía para procedimientos de cadena de custodia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2004). GTC 109 - Guía para la implementación de un programa de medición en campo, de la calidad del agua.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2010). NTC 3650-1. Calidad del agua. Vocabulario. Parte 1.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2012). GTC 45 - Calidad del agua. Guía para la identificación de los peligros y la valoración de riesgos en seguridad y salud ocupacional.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (1995). NTC-ISO 5667-14 - Gestión ambiental. Calidad del agua. Muestreo. Guía para el control de la calidad en el muestreo y manejo ambiental del agua.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2015). NTC- ISO 45001. Sistemas de gestión de la seguridad y salud en el trabajo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Químicos LATU. (2020). Sistema Globalmente Armonizado. Centro Coordinador del Convenio de Basilea. Centro Regional del Convenio de Estocolmo para América Latina y el Caribe.',
+      link: 'http://ghs-sga.com/',
+    },
+    {
+      referencia:
+        'Químicos LATU. (2020). Sistema Globalmente Armonizado de Clasificación y Etiquetado de productos Químicos. Centro Coordinador del Convenio de Basilea. Centro Regional del Convenio de Estocolmo para América Latina y el Caribe.',
+      link:
+        'http://ghs-sga.com/etiquetado-de-productos-quimicos-y-fds/etiquetas-y-pictogramas/',
+    },
+    {
+      referencia:
+        'Resolución 0811. Ministerio de Protección Social [MPS] y Ministerio de Ambiente Vivienda y Desarrollo Territorial [MAVDT]. Bogotá. Colombia. 18 de marzo 2020',
+      link: 'http://www.minvivienda.gov.co/ResolucionesAgua/0811-%202008.pdf',
+    },
+    {
+      referencia:
+        'Sandoval, L. (2004). Capítulo III Aseguramiento de la calidad, muestreo y análisis en sistema de aireación extendida.',
+      link:
+        'http://documentacion.ideam.gov.co/openbiblio/bvirtual/018834/MEMORIAS2004/CapituloIII/1TecnicasdeMuestreoLucianoSandoval2.pdf',
     },
   ],
   creditos: [
