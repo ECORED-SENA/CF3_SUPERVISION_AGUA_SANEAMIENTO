@@ -337,15 +337,15 @@
     .tarjeta.slydera-edit.p-4.mb-5(style="background-color: #F6F6F6;")
       SlyderA(tipo="b")
         .row.col-lg-10.mx-auto.align-items-center
-          img.col-md-4(src='@/assets/curso/temas/tema1/sla-1.svg')
+          img.col-md-4.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/sla-1.svg')
           .col-md-8.mb-4.mb-md-0
             p.mb-0 Toda actividad de toma y análisis de muestras implica una responsabilidad sobre garantizar que los resultados que arroje sí sean evidencia sobre el estado del recurso o vertimiento analizado.
         .row.col-lg-10.mx-auto.align-items-center
-          .col-md-8.mb-4.mb-md-0
+          .col-md-8.mb-4.mb-md-0.order-2.order-md-1
             p.mb-0 Dentro del aseguramiento de la calidad de esos resultados, se encuentra la oportunidad de réplica, esto indica que, si otra organización toma otra muestra en el mismo sitio de muestreo, bajo los mismos parámetros y condiciones de la inicial, los resultados no deben presentar variaciones estadísticamente significativas.
-          img.col-md-4(src='@/assets/curso/temas/tema1/sla-2.svg')
+          img.col-md-4.mb-4.mb-md-0.order-1.order-md-2(src='@/assets/curso/temas/tema1/sla-2.svg')
         .row.col-lg-10.mx-auto.align-items-center
-          img.col-md-4(src='@/assets/curso/temas/tema1/sla-3.svg')
+          img.col-md-4.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/sla-3.svg')
           .col-md-8.mb-4.mb-md-0
             p.mb-0 Para garantizar que esto suceda, se crean las guías técnicas que brindan la información mínima para tener en cuenta en el desarrollo de cualquiera de las fases de la toma de muestras. Como su nombre lo indica es una guía, pero no implica que se deroguen o se encuentren en contravía de la normatividad nacional; por el contrario, siempre deben ser un complemento a la norma nacional vigente al momento de tomar las muestras.
 
@@ -422,39 +422,6 @@ export default {
 </script>
 
 <style lang="sass">
-.list-number
-  background-color: #F6F6F6
-  border-radius: 5px
-  box-shadow: 0 1px 3px 1px #00000010
-  display: flex
-  align-items: center
-  margin-bottom: 1rem
-  width: 100%
-  span
-    height: 50px
-    width: 50px
-    display: flex
-    justify-content: center
-    align-items: center
-    background-color: #12263F
-    color: white
-    border-radius: 5px
-    font-weight: bold
-    font-size: 24px
-  p
-    padding-left: .7rem
-    margin-bottom: 0
-.img-texto-offset
-  position: relative
-  .container-offset
-    position: relative
-    margin-top: -7rem
-    background: linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
-    padding: .8rem 2rem
-    border-radius: 20px
-  @media (max-width: 991px)
-    .container-offset
-      margin-top: 0
 .linea-tiempo-d__item
   .linea-tiempo-d__item__number
     background-color: #E8E8E8
@@ -503,20 +470,4 @@ export default {
           border-color: black
       .hor-line
         border-color: black
-.slydera-edit
-  .slyder-a
-    .slyder-a__tipo-b
-      .hide
-        opacity: 0 !important
-      .slyder-a__btn--atrs
-        background-color: #FFA031
-        opacity: 1
-      .slyder-a__bullets
-        .slyder-a__bullets__item
-          border: none
-        .slyder-a__bullets__item--active
-          background-color: #0098E8
-      .slyder-a__btn--sigt
-        background-color: #FFA031
-        opacity: 1
 </style>

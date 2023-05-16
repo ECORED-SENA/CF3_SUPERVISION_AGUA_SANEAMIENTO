@@ -59,5 +59,52 @@
     border-bottom-left-radius: 29px
     border-top-right-radius: 29px
     color: white
-
-
+.list-number
+  background-color: #F6F6F6
+  border-radius: 5px
+  box-shadow: 0 1px 3px 1px #00000010
+  display: flex
+  align-items: center
+  margin-bottom: 1rem
+  width: 100%
+  span
+    height: 50px
+    width: 50px
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: #12263F
+    color: white
+    border-radius: 5px
+    font-weight: bold
+    font-size: 24px
+  p
+    padding-left: .7rem
+    margin-bottom: 0
+.img-texto-offset
+  position: relative
+  .container-offset
+    position: relative
+    margin-top: -7rem
+    background: linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
+    padding: .8rem 2rem
+    border-radius: 20px
+  @media (max-width: 991px)
+    .container-offset
+      margin-top: 0
+.slydera-edit
+  .slyder-a
+    .slyder-a__tipo-b
+      .hide
+        opacity: 0 !important
+      .slyder-a__btn--atrs
+        background-color: #FFA031
+        opacity: 1
+      .slyder-a__bullets
+        .slyder-a__bullets__item
+          border: none
+        .slyder-a__bullets__item--active
+          background-color: #0098E8
+      .slyder-a__btn--sigt
+        background-color: #FFA031
+        opacity: 1

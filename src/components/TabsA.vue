@@ -42,6 +42,8 @@ export default {
 </script>
 
 <style lang="sass">
+.tabs-a__tab
+  background-color: #E8E8E8
 .tabs-a__tab__selected
   border-right: 10px solid #FF9A00
   border-top-right-radius: 0
