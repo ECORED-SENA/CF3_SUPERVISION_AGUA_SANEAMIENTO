@@ -133,6 +133,22 @@
         .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Muestreo incorrecto")
           p Asociado a desviaciones del procedimiento, o el procedimiento aplicado en sí. Como muestreo en cuerpos de agua no homogeneizados.
 
+    .tarjeta.color-acento-contenido.p-3.col-lg-10.mx-auto.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-24.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.text-white.mb-1(style="color: #FCC02D")  Norma NTC 5667-14 
+              p.text-white Para ampliar la información acerca del control de la calidad en el muestreo y el manejo ambiental del agua, lo invitamos a consultar ICONTEC (1999), NTC 5667-14 que se encuentra en la Biblioteca digital del SENA, en la base de datos de la ICONTEC.
+            .col-sm-auto
+              a.boton.color-primario(href="http://biblioteca.SENA.edu.co/paginas/bases.html" target="_blank")
+                span Ir a página
+                i.fas.fa-link
+    
+    .w-100.titulo-edit.mb-5
+      h3 Técnicas de control
 
     p.mb-5 A continuación, se relacionan las técnicas indicadas por la NTC-ISO 5667-14:
 
@@ -247,14 +263,148 @@
             p.mb-0 En las condiciones de seguridad el control principal para evitar lesiones a causa del uso de sustancias químicas es el conocimiento acerca de las propiedades de dichos reactivos. Para ello, las fichas de seguridad de los reactivos, así como el etiquetado, son fundamentales para el control de los riesgos químicos. Actualmente, se utiliza un sistema a nivel internacional para ayudar en ese control de los peligros químicos, denominado el sistema globalmente armonizado.
           img.col-md-4.mb-4.mb-md-0.order-1.order-md-2(src='@/assets/curso/temas/tema2/sla-3.svg')
 
-    .w-100.titulo-edit.pt-md-4
+    .w-100.titulo-edit.pt-md-4.mb-5
       h3 Pictogramas
     
+    .d-flex.flex-wrap.mb-5
+      img.col-lg-4.mb-4.lg-md-0(src='@/assets/curso/temas/tema2/img-15.svg')
+      .col-lg-8.ps-lg-5
+        p Un pictograma es una composición gráfica que sirve para comunicar una información específica. Consta de un símbolo y de otros elementos gráficos, tales como un borde, un dibujo o color de fondo (Global Harmonized System [GHS], 2020). Los pictogramas usualmente hacen parte de las etiquetas de las sustancias químicas.
+        img(src='@/assets/curso/temas/tema2/img-16.svg')
     
-
+    .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #D5F6FF")
+      p.mb-0 Con el objetivo de facilitar el intercambio de información en los laboratorios, se creó el Sistema Globalmente Armonizado [SGA], también conocido como GHS, por sus siglas en inglés (Global Harmonized System).
+    
+    SlyderB.mb-5(:datos="datosSlyder")
  
+    .tarjeta.color-acento-contenido.p-3.col-lg-10.mx-auto
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-24.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.text-white.mb-1(style="color: #FCC02D") Sistema Globalmente Armonizado de Clasificación y Etiquetado de productos químicos
+              p.text-white Para ampliar la información del Sistema Globalmente Armonizado de clasificación y etiquetado de productos químicos puede ingresar a la siguiente página y explorar su contenido:
+            .col-sm-auto
+              a.boton.color-primario(href="http://ghs-sga.com/" target="_blank")
+                span Ir a página
+                i.fas.fa-link
+    Separador
+    
+    .titulo-segundo.color-secundario
+      h2#t_2_5 2.5 Métodos estándar para análisis de aguas en laboratorio
+    
+    .d-flex.flex-wrap.mb-5
+      img.col-lg-4.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema2/img-20.jpg')
+      .col-lg-8.ps-lg-5
+        p Una vez se realiza la recepción de las muestras en el laboratorio se procede con la asignación a un analista para su procesamiento. Esto implica someter la muestra objeto de estudio a una serie de procesos que buscan determinar las características de la fuente de origen. Para esto, es necesario cumplir con los métodos definidos y previamente validados para su análisis en el laboratorio.
+        .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #D5F6FF")
+          p.mb-0 Dentro de los métodos estándar más reconocidos para el análisis muestreo y análisis de aguas se encuentran el Standard Methods y las Normas ISO.
 
+    .w-100.titulo-edit.pt-md-4.mb-5
+      h3 Standard methods
+    
+    .img-texto-offset.mb-5
+      img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema2/img-21.jpg")
+      .container-offset.col-lg-10.mx-auto
+        p El Standard Methods es un referente que, de manera integral, compila todos los aspectos relacionados con las técnicas de análisis de agua incluyendo las aguas residuales.
 
+    .d-flex.flex-wrap.mb-5.pt-md-5
+      .col-lg-8.pe-lg-5.order-2.order-lg-1
+        p Este referente ha sido publicado desde 1905 y desde entonces se actualiza constantemente, hoy en día va en su edición número 23. 
+        .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #D5F6FF")
+          p.mb-0 Esta es una publicación producida con recursos y conocimiento conjunto de las 3 asociaciones de salud pública y agua, reconocidas a nivel mundial: La Asociación Americana de la Salud Pública (APHA), Asociación Americana de trabajos del Agua (AWWA) y La Federación del ambiente agua (WEF). 
+      img.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src='@/assets/curso/temas/tema2/img-22.jpg')
+
+    .d-flex.flex-wrap.mb-5
+      img.col-lg-3.mb-4.mb-lg-auto.mx-auto(src='@/assets/curso/temas/tema2/img-23.png' style="max-width: 261px")
+      .col-lg-9.ps-lg-5
+        p.mb-4 El Standard Methods contiene más de 400 métodos para el análisis de agua, debidamente revisados y aprobados por expertos. Estos métodos están divididos en 10 apartados que van desde el apartado 1000 al 10000.
+        .d-flex.flex-wrap 
+          ol.col-md-6.lista-ol--cuadro.lista-ol--separador.pe-lg-4.order-2.order-lg-1
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: transparent")
+                img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
+              | <b>1000:</b> Introducción.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: transparent")
+                img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
+              | <b>2000:</b> Propiedades Físicas y Agregadas.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: transparent")
+                img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
+              | <b>3000:</b> Metales.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: transparent")
+                img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
+              | <b>4000:</b> Componentes inorgánicos no metálicos.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: transparent")
+                img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
+              | <b>5000:</b> Constituyentes orgánicos agregados no metálicos.
+          ol.col-md-6.lista-ol--cuadro.lista-ol--separador.pe-lg-4.order-2.order-lg-1
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: transparent")
+                img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
+              | <b>6000:</b> Componentes orgánicos individuales.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: transparent")
+                img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
+              | <b>7000:</b> Radioactividad.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: transparent")
+                img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
+              | <b>8000:</b> Toxicidad.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: transparent")
+                img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
+              | <b>9000:</b> Análisis microbiológico.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: transparent")
+                img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
+              | <b>10000:</b> Análisis biológico.
+    
+    p.mb-5 En cada uno de los apartados citados anteriormente se encuentra información sobre las técnicas de muestreo, incluyendo la preservación y el almacenamiento de aguas para cada uno de los parámetros analizados dentro de estos 10 tipos de ensayo.
+
+    .tarjeta.color-acento-contenido.p-3.col-lg-10.mx-auto.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-24.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.text-white.mb-1(style="color: #FCC02D") Standard Methods for the examination of water and wastewater
+              p.text-white Para consultar las normas internacionales por las cuales también son regidos los ensayos de laboratorio que se realizan en el país, puede consultar los Standard Methods for the examination of water and wastewater. Ingrese al siguiente link y explore la página. 
+            .col-sm-auto
+              a.boton.color-primario(href="https://www.standardmethods.org/" target="_blank")
+                span Ir a página
+                i.fas.fa-link
+
+    .w-100.titulo-edit.pt-md-4.mb-5
+      h3 Normas ISO
+    
+    p.mb-5 Las normas ISO son otro referente importante para el muestreo y análisis microbiológico y fisicoquímico del agua, elaborados por la organización internacional de normalización ISO con sede en Ginebra suiza y conformada por más de 160 países miembros.
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    p.mb-5 Recuerde que estas normas y guías del Icontec pueden ser consultadas a través de las bases de datos disponibles en la Biblioteca SENA, en el siguiente enlace:
+
+    .tarjeta.color-acento-contenido.p-3.col-lg-10.mx-auto
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-24.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.text-white.mb-1(style="color: #FCC02D") Norma NTC 5667 
+              p.text-white Recuerde que estas normas y guías del Icontec pueden ser consultadas a través de las bases de datos disponibles en la Biblioteca SENA, en el siguiente enlace:
+            .col-sm-auto
+              a.boton.color-primario(href="http://biblioteca.SENA.edu.co/paginas/bases.html" target="_blank")
+                span Ir a página
+                i.fas.fa-link
 </template>
 
 <script>
@@ -263,7 +413,26 @@ export default {
   name: 'Tema2',
   components: { TabsA },
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Sistema Globalmente Armonizado [SGA o GHS]',
+        texto:
+          'El Sistema Globalmente armonizado de clasificación y etiquetado de productos químicos es una iniciativa para la protección del medio ambiente y la salud, a través de un sistema de comunicación de peligros armonizado y comprensible para usuarios, fabricantes, trabajadores y consumidores. <br><br>En la elaboración del SGA participaron expertos de distintos países, organizaciones internacionales y otras entidades interesadas, con experiencia en diferentes áreas desde la toxicología hasta la lucha contra incendios.',
+        imagen: require('@/assets/curso/temas/tema2/img-17.svg'),
+      },
+      {
+        titulo: 'SGA comprende los siguientes elementos',
+        texto:
+          '<b>a)</b>	Criterios armonizados para clasificar sustancias y mezclas con arreglo a sus peligros ambientales, físicos y para la salud. <br><br><b>b)</b>	Elementos armonizados de comunicación de peligros con requisitos sobre etiquetas y fichas de datos de seguridad.',
+        imagen: require('@/assets/curso/temas/tema2/img-17.svg'),
+      },
+      {
+        titulo: 'Herramientas básicas del SGA',
+        texto:
+          'Para asegurar la comunicación armonizada de los peligros de las sustancias químicas, el SGA cuenta con 3 herramientas básicas: <br><br>● Etiquetas.<br>● Pictogramas.<br>● Fichas de seguridad.',
+        imagen: require('@/assets/curso/temas/tema2/img-19.svg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {

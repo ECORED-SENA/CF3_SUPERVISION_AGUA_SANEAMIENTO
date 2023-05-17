@@ -2,7 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 La correcta recogida de muestras de agua para su posterior análisis en laboratorio es un proceso complejo con multitud de aspectos a tener en cuenta antes, durante y después de la recogida de esa porción de agua que nos proporcionará una determinada información. 
+      br
+      br
+      |Es importante que la muestra de agua tomada sea homogénea y representativa, y que el proceso de recogida, transporte y conservación no modifique las propiedades a analizar. Esto es esencial para evitar resultados de análisis cuya fiabilidad pueda cuestionarse.
+      br
+      br
+      |Existen diferentes tipos de muestreo, basados esencialmente en la forma en que se obtiene la porción de agua que se va a analizar.
+
 
     .row.justify-content-center
       .col-lg-10.mb-5
