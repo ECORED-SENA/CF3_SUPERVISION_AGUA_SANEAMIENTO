@@ -23,7 +23,7 @@
     .d-flex.flex-wrap.mb-5
       img.col-lg-5.col-xl-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 480px")
       .col-lg-7.col-xl-8.ps-lg-4
-        p.mb-4 Para ello, un punto de partida es la verificación de la muestra al momento de su entrega al laboratorio, en la que el recepcionista debe verificar inicialmente que el tiempo máximo de entrega definido para el tipo de muestra no se haya superado; posteriormente, se debe verificar la condición de la muestra y del sello. Una vez realizada, se procede con la comparación de la información de la etiqueta y sello, con la información registrada en los formatos de toma de muestra y cadena de custodia (Instituto de Hidrología Meteorología y Estudios Ambientales [Ideam], s.f.).
+        p.mb-4 Para ello, un punto de partida es la verificación de la muestra al momento de su entrega al laboratorio, en la que el recepcionista debe verificar inicialmente que el tiempo máximo de entrega definido para el tipo de muestra no se haya superado; posteriormente, se debe verificar la condición de la muestra y del sello. Una vez realizada, se procede con la comparación de la información de la etiqueta y sello, con la información registrada en los formatos de toma de muestra y cadena de custodia (Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM], s.f.).
 
         .tarjeta.color-acento-contenido.p-3
           .row.justify-content-around.align-items-center
@@ -32,7 +32,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.text-white.mb-1(style="color: #FCC02D")  INSTRUCTIVO DE TOMA Y PRESERVACIÓN DE MUESTRAS
+                  h3.text-white.mb-1(style="color: #FCC02D")  Instructivo de toma y preservación de muestras
                   p.text-white Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM]. (s.f.). Toma y preservación de muestras.
                 .col-sm-auto
                   a.boton.color-primario(href="http://sgi.ideam.gov.co/documents/412030/35488871/M-S-LC-I004+INSTRUCTIVO+DE+TOMA+Y+PRESERVACI%C3%93N+DE+MUESTRAS+SEDIMENTOS+Y+AGUA+SUPERFICIAL+PARA+LA+RED+DE+MONITOREO+DE+CALIDAD+DEL+IDEAM+v3.pdf/477bbe4a-5825-49c8-9961-10805a3c2288?version=1.0" target="_blank")
@@ -124,11 +124,11 @@
     p.mb-5 Como se ha mencionado, las actividades en las diferentes etapas de muestreo son susceptibles de presentar errores por diferentes motivos, entre las fuentes identificadas en la Norma Técnica Colombiana NTC-ISO 5667-14, se incluyen (Icontec, 1999):
 
     .d-flex.flex-wrap.mb-5
-      img.col-lg-5.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-27.png')
-      TabsA.col-lg-7.ps-lg-4.color-acento-contenido.mb-5.tabs-edit
+      img.col-xl-5.mb-4.mb-xl-auto(src='@/assets/curso/temas/tema2/img-24.png')
+      TabsA.col-xl-7.ps-xl-4.color-acento-contenido.mb-5.tabs-edit
         .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Contaminación")
           p Causada por recipientes, equipos, manipulación o contaminación cruzada por inapropiado almacenamiento y transporte.
-        .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Inestabilidad de la muestra")
+        .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Inestabilidad de <br class='d-none d-xl-flex d-xxl-none'> la muestra")
           p Debido a la inestabilidad propia del analito, recipientes y contenedores empleados, preservantes o condiciones de almacenamiento y transporte.
         .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Muestreo incorrecto")
           p Asociado a desviaciones del procedimiento, o el procedimiento aplicado en sí. Como muestreo en cuerpos de agua no homogeneizados.
@@ -142,6 +142,9 @@
             .col.mb-3.mb-sm-0
               h3.text-white.mb-1(style="color: #FCC02D")  Norma NTC 5667-14 
               p.text-white Para ampliar la información acerca del control de la calidad en el muestreo y el manejo ambiental del agua, lo invitamos a consultar ICONTEC (1999), NTC 5667-14 que se encuentra en la Biblioteca digital del SENA, en la base de datos de la ICONTEC.
+                br
+                br
+                |Debe ingresar a Biblioteca SENA, ir a ICONTEC, buscar norma NTC 5667-14 y escoger NTC-ISO 5667-14:1999
             .col-sm-auto
               a.boton.color-primario(href="http://biblioteca.SENA.edu.co/paginas/bases.html" target="_blank")
                 span Ir a página
@@ -157,7 +160,7 @@
         img.col-lg-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-9.svg")
         LineaTiempoD.col-lg-7.ps-lg-4.color-acento-contenido
           .p-4(numero="1" titulo="Muestras de calidad repetidas")
-            p.mb-4 se utiliza para cubrir una gran variedad de enfoques de calidad que buscan el error aleatorio asociado a diferentes niveles del proceso de muestreo. Estas incluyen el análisis de las siguientes varianzas:
+            p.mb-4 Se utiliza para cubrir una gran variedad de enfoques de calidad que buscan el error aleatorio asociado a diferentes niveles del proceso de muestreo. Estas incluyen el análisis de las siguientes varianzas:
             .list-number
               span(style="background-color: #3076B6") 01
               p Varianza analítica
@@ -167,10 +170,10 @@
             .list-number
               span(style="background-color: #3076B6") 03
               p Varianza analítica + varianza en el muestreo total
-          p.text-small(numero="2" titulo="Muestras en blanco de campo") Puede ser usada para identificar los errores relacionados con la contaminación de los recipientes de muestreo y el proceso de muestreo.
-          p.text-small(numero="3" titulo="Limpieza de equipos y recipientes") Se emplea para identificar errores relacionados con la contaminación por limpieza incompleta de los recipientes de muestreo.
-          p.text-small(numero="4" titulo="Recuperación de la filtración") Aplicable en el caso de que la muestra requiera de filtración en campo. Permite identificar la contaminación relacionada con los recipientes de muestreo y proceso en sí.
-          p.text-small(numero="5" titulo="Muestras con adición conocida") Empleada para identificar errores relacionados con recipientes y procesos de muestreo. Particularmente, permite la identificación de errores por la inestabilidad de la muestra (incluida la pérdida del analito por volatilización, adsorción y factores biológicos).
+          p(numero="2" titulo="Muestras en blanco de campo") Puede ser usada para identificar los errores relacionados con la contaminación de los recipientes de muestreo y el proceso de muestreo.
+          p(numero="3" titulo="Limpieza de equipos y recipientes") Se emplea para identificar errores relacionados con la contaminación por limpieza incompleta de los recipientes de muestreo.
+          p(numero="4" titulo="Recuperación de la filtración") Aplicable en el caso de que la muestra requiera de filtración en campo. Permite identificar la contaminación relacionada con los recipientes de muestreo y proceso en sí.
+          p(numero="5" titulo="Muestras con adición conocida") Empleada para identificar errores relacionados con recipientes y procesos de muestreo. Particularmente, permite la identificación de errores por la inestabilidad de la muestra (incluida la pérdida del analito por volatilización, adsorción y factores biológicos).
     Seprador 
 
     .titulo-segundo.color-secundario
@@ -179,7 +182,7 @@
     .img-texto-offset.mb-5
       img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema2/img-10.jpg")
       .container-offset.col-lg-10.mx-auto
-        p En este apartado se desarrollan temas de riesgos asociados a la salud y seguridad de las personas, clasificación de peligros a los cuales se encuentra expuesto el personal y conocerán los pictograma o símbolos gráficos más utilizados.
+        p En este apartado se desarrollan temas de riesgos asociados a la salud y seguridad de las personas, clasificación de peligros a los cuales se encuentra expuesto el personal y conocerán los pictogramas o símbolos gráficos más utilizados.
 
     .w-100.titulo-edit.pt-md-4
       h3 Riesgos
@@ -244,7 +247,7 @@
       SlyderA(tipo="b")
         .row.col-lg-10.mx-auto.align-items-center
           .col-md-8.mb-4.mb-md-0.order-2.order-md-1
-            h4 Peligros Biológicos
+            h4 Peligros biológicos
             p.mb-0 Los peligros biológicos están básicamente asociados a la posible exposición con bacterias patógenas presentes en los cuerpos de agua muestreados o en las muestras tomadas. 
               br
               br
@@ -254,8 +257,8 @@
         .row.col-lg-10.mx-auto.align-items-center
           img.col-md-4.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/sla-2.svg')
           .col-md-8.mb-4.mb-md-0
-            h4 Peligros Químicos
-            p.mb-0 Los peligros químicos básicamente se originan por la utilización de sustancias químicas durante el alistamiento, toma de muestras, realización de ensayos in situ, transporte de muestras y reactivos para su análisis y preservación. El grado de peligrosidad de estas sustancias químicas dependerá de sus propiedades intrínsecas, es decir, de su capacidad para interferir en procesos biológicos normales, y de su capacidad para arder, explotar, corroer, entre otras.
+            h4 Peligros químicos
+            p.mb-0 Los peligros químicos básicamente se originan por la utilización de sustancias químicas durante el alistamiento, toma de muestras, realización de ensayos <em>in situ</em>, transporte de muestras y reactivos para su análisis y preservación. El grado de peligrosidad de estas sustancias químicas dependerá de sus propiedades intrínsecas, es decir, de su capacidad para interferir en procesos biológicos normales, y de su capacidad para arder, explotar, corroer, entre otras.
         
         .row.col-lg-10.mx-auto.align-items-center
           .col-md-8.mb-4.mb-md-0.order-2.order-md-1
@@ -269,11 +272,11 @@
     .d-flex.flex-wrap.mb-5
       img.col-lg-4.mb-4.lg-md-0(src='@/assets/curso/temas/tema2/img-15.svg')
       .col-lg-8.ps-lg-5
-        p Un pictograma es una composición gráfica que sirve para comunicar una información específica. Consta de un símbolo y de otros elementos gráficos, tales como un borde, un dibujo o color de fondo (Global Harmonized System [GHS], 2020). Los pictogramas usualmente hacen parte de las etiquetas de las sustancias químicas.
+        p Un pictograma es una composición gráfica que sirve para comunicar una información específica. Consta de un símbolo y de otros elementos gráficos, tales como un borde, un dibujo o color de fondo (<em>Global Harmonized System</em> [GHS], 2020). Los pictogramas usualmente hacen parte de las etiquetas de las sustancias químicas.
         img(src='@/assets/curso/temas/tema2/img-16.svg')
     
     .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #D5F6FF")
-      p.mb-0 Con el objetivo de facilitar el intercambio de información en los laboratorios, se creó el Sistema Globalmente Armonizado [SGA], también conocido como GHS, por sus siglas en inglés (Global Harmonized System).
+      p.mb-0 Con el objetivo de facilitar el intercambio de información en los laboratorios, se creó el Sistema Globalmente Armonizado [SGA], también conocido como GHS, por sus siglas en inglés (<em>Global Harmonized System</em>).
     
     SlyderB.mb-5(:datos="datosSlyder")
  
@@ -285,7 +288,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.text-white.mb-1(style="color: #FCC02D") Sistema Globalmente Armonizado de Clasificación y Etiquetado de productos químicos
-              p.text-white Para ampliar la información del Sistema Globalmente Armonizado de clasificación y etiquetado de productos químicos puede ingresar a la siguiente página y explorar su contenido:
+              p.text-white Para ampliar la información del Sistema Globalmente Armonizado de Clasificación y Etiquetado de productos químicos puede ingresar a la siguiente página y explorar su contenido:
             .col-sm-auto
               a.boton.color-primario(href="http://ghs-sga.com/" target="_blank")
                 span Ir a página
@@ -300,15 +303,15 @@
       .col-lg-8.ps-lg-5
         p Una vez se realiza la recepción de las muestras en el laboratorio se procede con la asignación a un analista para su procesamiento. Esto implica someter la muestra objeto de estudio a una serie de procesos que buscan determinar las características de la fuente de origen. Para esto, es necesario cumplir con los métodos definidos y previamente validados para su análisis en el laboratorio.
         .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #D5F6FF")
-          p.mb-0 Dentro de los métodos estándar más reconocidos para el análisis muestreo y análisis de aguas se encuentran el Standard Methods y las Normas ISO.
+          p.mb-0 Dentro de los métodos estándar más reconocidos para el análisis muestreo y análisis de aguas se encuentran el <em>Standard Methods</em> y las Normas ISO.
 
     .w-100.titulo-edit.pt-md-4.mb-5
-      h3 Standard methods
-    
+      h3 <em>Standard Methods</em>
+    p.mb-5 Realizada la recepción de las muestras en el labortorio se procede con la asignación a un analista para su procesamiento.
     .img-texto-offset.mb-5
       img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema2/img-21.jpg")
       .container-offset.col-lg-10.mx-auto
-        p El Standard Methods es un referente que, de manera integral, compila todos los aspectos relacionados con las técnicas de análisis de agua incluyendo las aguas residuales.
+        p El <em>Standard Methods</em> es un referente que, de manera integral, compila todos los aspectos relacionados con las técnicas de análisis de agua incluyendo las aguas residuales.
 
     .d-flex.flex-wrap.mb-5.pt-md-5
       .col-lg-8.pe-lg-5.order-2.order-lg-1
@@ -320,50 +323,50 @@
     .d-flex.flex-wrap.mb-5
       img.col-lg-3.mb-4.mb-lg-auto.mx-auto(src='@/assets/curso/temas/tema2/img-23.png' style="max-width: 261px")
       .col-lg-9.ps-lg-5
-        p.mb-4 El Standard Methods contiene más de 400 métodos para el análisis de agua, debidamente revisados y aprobados por expertos. Estos métodos están divididos en 10 apartados que van desde el apartado 1000 al 10000.
+        p.mb-4 El <em>Standard Methods</em> contiene más de 400 métodos para el análisis de agua, debidamente revisados y aprobados por expertos. Estos métodos están divididos en 10 apartados que van desde el apartado 1000 al 10000.
         .d-flex.flex-wrap 
           ol.col-md-6.lista-ol--cuadro.lista-ol--separador.pe-lg-4.order-2.order-lg-1
             li 
               .lista-ol--cuadro__vineta(style="background-color: transparent")
                 img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-              | <b>1000:</b> Introducción.
+              | <b>1000:</b> introducción.
             li 
               .lista-ol--cuadro__vineta(style="background-color: transparent")
                 img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-              | <b>2000:</b> Propiedades Físicas y Agregadas.
+              | <b>2000:</b> propiedades físicas y agregadas.
             li 
               .lista-ol--cuadro__vineta(style="background-color: transparent")
                 img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-              | <b>3000:</b> Metales.
+              | <b>3000:</b> metales.
             li 
               .lista-ol--cuadro__vineta(style="background-color: transparent")
                 img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-              | <b>4000:</b> Componentes inorgánicos no metálicos.
+              | <b>4000:</b> componentes inorgánicos no metálicos.
             li 
               .lista-ol--cuadro__vineta(style="background-color: transparent")
                 img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-              | <b>5000:</b> Constituyentes orgánicos agregados no metálicos.
+              | <b>5000:</b> constituyentes orgánicos agregados no metálicos.
           ol.col-md-6.lista-ol--cuadro.lista-ol--separador.pe-lg-4.order-2.order-lg-1
             li 
               .lista-ol--cuadro__vineta(style="background-color: transparent")
                 img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-              | <b>6000:</b> Componentes orgánicos individuales.
+              | <b>6000:</b> componentes orgánicos individuales.
             li 
               .lista-ol--cuadro__vineta(style="background-color: transparent")
                 img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-              | <b>7000:</b> Radioactividad.
+              | <b>7000:</b> radioactividad.
             li 
               .lista-ol--cuadro__vineta(style="background-color: transparent")
                 img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-              | <b>8000:</b> Toxicidad.
+              | <b>8000:</b> toxicidad.
             li 
               .lista-ol--cuadro__vineta(style="background-color: transparent")
                 img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-              | <b>9000:</b> Análisis microbiológico.
+              | <b>9000:</b> análisis microbiológico.
             li 
               .lista-ol--cuadro__vineta(style="background-color: transparent")
                 img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-              | <b>10000:</b> Análisis biológico.
+              | <b>10000:</b> análisis biológico.
     
     p.mb-5 En cada uno de los apartados citados anteriormente se encuentra información sobre las técnicas de muestreo, incluyendo la preservación y el almacenamiento de aguas para cada uno de los parámetros analizados dentro de estos 10 tipos de ensayo.
 
@@ -374,8 +377,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.text-white.mb-1(style="color: #FCC02D") Standard Methods for the examination of water and wastewater
-              p.text-white Para consultar las normas internacionales por las cuales también son regidos los ensayos de laboratorio que se realizan en el país, puede consultar los Standard Methods for the examination of water and wastewater. Ingrese al siguiente link y explore la página. 
+              h3.text-white.mb-1(style="color: #FCC02D") <em>Standard Methods for the examination of water and wastewater</em>
+              p.text-white Para consultar las normas internacionales por las cuales también son regidos los ensayos de laboratorio que se realizan en el país, puede consultar los <em>Standard Methods for the examination of water and wastewater</em>. Ingrese al siguiente link y explore la página. 
             .col-sm-auto
               a.boton.color-primario(href="https://www.standardmethods.org/" target="_blank")
                 span Ir a página
@@ -389,8 +392,6 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    p.mb-5 Recuerde que estas normas y guías del Icontec pueden ser consultadas a través de las bases de datos disponibles en la Biblioteca SENA, en el siguiente enlace:
 
     .tarjeta.color-acento-contenido.p-3.col-lg-10.mx-auto
       .row.justify-content-around.align-items-center
@@ -417,7 +418,7 @@ export default {
       {
         titulo: 'Sistema Globalmente Armonizado [SGA o GHS]',
         texto:
-          'El Sistema Globalmente armonizado de clasificación y etiquetado de productos químicos es una iniciativa para la protección del medio ambiente y la salud, a través de un sistema de comunicación de peligros armonizado y comprensible para usuarios, fabricantes, trabajadores y consumidores. <br><br>En la elaboración del SGA participaron expertos de distintos países, organizaciones internacionales y otras entidades interesadas, con experiencia en diferentes áreas desde la toxicología hasta la lucha contra incendios.',
+          'El Sistema Globalmente Armonizado de clasificación y etiquetado de productos químicos es una iniciativa para la protección del medio ambiente y la salud, a través de un sistema de comunicación de peligros armonizado y comprensible para usuarios, fabricantes, trabajadores y consumidores. <br><br>En la elaboración del SGA participaron expertos de distintos países, organizaciones internacionales y otras entidades interesadas, con experiencia en diferentes áreas desde la toxicología hasta la lucha contra incendios.',
         imagen: require('@/assets/curso/temas/tema2/img-17.svg'),
       },
       {

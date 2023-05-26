@@ -195,7 +195,7 @@ export default {
     {
       termino: 'Aguas residuales',
       significado:
-        'aguas que contienen residuos líquidos o materias sólidas evacuadas como desechos. (WMO, 2012). Las aguas residuales son cualquier tipo de agua cuya calidad está afectada negativamente por la influencia antropogénica. Las aguas residuales incluyen las aguas usadas, domésticas, urbanas y los residuos líquidos industriales o mineros eliminados, o las aguas que se mezclaron con las anteriores (aguas pluviales o naturales) (Ideam, s.f.).',
+        'aguas que contienen residuos líquidos o materias sólidas evacuadas como desechos. (WMO, 2012). Las aguas residuales son cualquier tipo de agua cuya calidad está afectada negativamente por la influencia antropogénica. Las aguas residuales incluyen las aguas usadas, domésticas, urbanas y los residuos líquidos industriales o mineros eliminados, o las aguas que se mezclaron con las anteriores (aguas pluviales o naturales) (IDEAM, s.f.).',
     },
     {
       termino: 'Alcalinidad',
@@ -220,12 +220,12 @@ export default {
     {
       termino: 'Cuerpos o cursos de agua',
       significado:
-        'corresponden a aquellos cauces o almacenamientos de agua como arroyos, quebradas, ríos, lagos, lagunas, pantanos, humedales y acuíferos que conforman el sistema hidrográfico de una cuenca geográfica. Son las aguas corrientes superficiales y subterráneas, lagos, lagunas, ciénagas, manantiales, humedales, embalses de formación natural o artificial, chucuas o madre vieja o antiguos cauces con flujos estacionales, esteros, bahías, lagunas costeras, golfos y las aguas marinas (Ideam, s.f.).',
+        'corresponden a aquellos cauces o almacenamientos de agua como arroyos, quebradas, ríos, lagos, lagunas, pantanos, humedales y acuíferos que conforman el sistema hidrográfico de una cuenca geográfica. Son las aguas corrientes superficiales y subterráneas, lagos, lagunas, ciénagas, manantiales, humedales, embalses de formación natural o artificial, chucuas o madre vieja o antiguos cauces con flujos estacionales, esteros, bahías, lagunas costeras, golfos y las aguas marinas (IDEAM, s.f.).',
     },
     {
       termino: 'Monitoreo',
       significado:
-        'proceso de muestreo del sistema de suministro de agua para consumo humano, que cubre espacio, tiempo y frecuencia en los puntos concertados según norma (Ideam, s.f.).',
+        'proceso de muestreo del sistema de suministro de agua para consumo humano, que cubre espacio, tiempo y frecuencia en los puntos concertados según norma (IDEAM, s.f.).',
     },
     {
       termino: 'Muestra',
@@ -261,101 +261,101 @@ export default {
   referencias: [
     {
       referencia:
-        'American Public Health Association, American Water Works Association y Water Environment Federation. (2018). Standard Methods For the Examination of Water and Wastewater. standardmethods.org.',
+        'American Public Health Association, American Water Works Association y Water Environment Federation. (2018). </em>Standard Methods For the Examination of Water and Wastewater. standardmethods.org.</em>',
       link: 'https://www.standardmethods.org/#',
     },
     {
       referencia:
-        'Instituto de hidrología, meteorología y estudios ambientales [IDEAM]. (2014). Guía para el monitoreo de vertimientos de aguas superficiales y subterráneas.',
+        'Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM]. (2014). <em>Guía para el monitoreo de vertimientos de aguas superficiales y subterráneas.</em>',
       link:
         'http://www.corponor.gov.co/control_calidad/2014/Guia_monitoreo_IDEAM.pdf',
     },
     {
       referencia:
-        'Instituto de hidrología, meteorología y estudios ambientales [IDEAM]. (s.f.). Glosario - Atención y participación ciudadana.',
+        'Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM]. (s.f.). <em>Glosario - Atención y participación ciudadana.</em>',
       link:
         'http://www.ideam.gov.co/web/atencion-y-participacion-ciudadana/glosario',
     },
     {
       referencia:
-        'Instituto de investigaciones marinas y costeras [Invermar]. (2003). Manual de técnicas analíticas para la determinación de parámetros fisicoquímicos y contaminantes marinos. Aguas sedimentos y organismos. Cargraphics- Impresión digital.',
+        'Instituto de Investigaciones Marinas y Costeras [INVERNAR]. (2003). <em>Manual de técnicas analíticas para la determinación de parámetros fisicoquímicos y contaminantes marinos. Aguas sedimentos y organismos. Cargraphics- Impresión digital.</em>',
       link:
         'http://www.invemar.org.co/redcostera1/invemar/docs/7010manualTecnicasanaliticas..pdf',
     },
     {
       referencia:
-        'Instituto nacional de salud [INS]. (2011). Manual de instrucciones para la toma, preservación, transporte de muestras de agua para consumo humano para análisis de laboratorio. ISBN 978-958-13-0147-8.',
+        'Instituto Nacional de Salud [INS]. (2011). <em>Manual de instrucciones para la toma, preservación, transporte de muestras de agua para consumo humano para análisis de laboratorio.</em> ISBN 978-958-13-0147-8.',
       link: 'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2004). NTC-ISO 5667-3-Calidad del Agua. Muestreo. Parte 3: Directrices para la Preservación y Manejo de Muestras.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2004). NTC-ISO 5667-3-<em>Calidad del Agua. Muestreo. Parte 3: Directrices para la Preservación y Manejo de Muestras.</em>',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2015). NTC-ISO 6151 -Calidad del Agua. Muestreo para análisis microbiológico.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2015). NTC-ISO 6151 -<em>Calidad del Agua. Muestreo para análisis microbiológico.</em>',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (1995). NTC-ISO 5667-1 - Calidad del Agua. Muestreo. Directrices para el diseño de programas de muestreo.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (1995). NTC-ISO 5667-1 - <em>Calidad del Agua. Muestreo. Directrices para el diseño de programas de muestreo.</em>',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (1995). NTC-ISO 5667-2 - Gestión ambiental. Calidad del agua. Muestreo. Técnicas generales de muestreo.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (1995). NTC-ISO 5667-2 - <em>Gestión ambiental. Calidad del agua. Muestreo. Técnicas generales de muestreo.</em>',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2004). GTC 100 - Calidad del agua. Guía para procedimientos de cadena de custodia.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2004). GTC 100 - <em>Calidad del agua. Guía para procedimientos de cadena de custodia.</em>',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2004). GTC 109 - Guía para la implementación de un programa de medición en campo, de la calidad del agua.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2004). GTC 109 - <em>Guía para la implementación de un programa de medición en campo, de la calidad del agua.</em>',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2010). NTC 3650-1. Calidad del agua. Vocabulario. Parte 1.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2010). NTC 3650-1. <em>Calidad del agua. Vocabulario. Parte 1.</em>',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2012). GTC 45 - Calidad del agua. Guía para la identificación de los peligros y la valoración de riesgos en seguridad y salud ocupacional.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2012). GTC 45 - <em>Calidad del agua. Guía para la identificación de los peligros y la valoración de riesgos en seguridad y salud ocupacional.</em>',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (1995). NTC-ISO 5667-14 - Gestión ambiental. Calidad del agua. Muestreo. Guía para el control de la calidad en el muestreo y manejo ambiental del agua.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (1995). NTC-ISO 5667-14 - <em>Gestión ambiental. Calidad del agua. Muestreo. Guía para el control de la calidad en el muestreo y manejo ambiental del agua.</em>',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2015). NTC- ISO 45001. Sistemas de gestión de la seguridad y salud en el trabajo.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [Icontec]. (2015). NTC- ISO 45001. <em>Sistemas de gestión de la seguridad y salud en el trabajo.</em>',
       link: '',
     },
     {
       referencia:
-        'Químicos LATU. (2020). Sistema Globalmente Armonizado. Centro Coordinador del Convenio de Basilea. Centro Regional del Convenio de Estocolmo para América Latina y el Caribe.',
+        'Químicos LATU. (2020). Sistema Globalmente Armonizado. Centro Coordinador del Convenio de Basilea. <em>Centro Regional del Convenio de Estocolmo para América Latina y el Caribe.</em>',
       link: 'http://ghs-sga.com/',
     },
     {
       referencia:
-        'Químicos LATU. (2020). Sistema Globalmente Armonizado de Clasificación y Etiquetado de productos Químicos. Centro Coordinador del Convenio de Basilea. Centro Regional del Convenio de Estocolmo para América Latina y el Caribe.',
+        'Químicos LATU. (2020). Sistema Globalmente Armonizado de Clasificación y Etiquetado de productos Químicos. <em>Centro Coordinador del Convenio de Basilea. Centro Regional del Convenio de Estocolmo para América Latina y el Caribe.</em>',
       link:
         'http://ghs-sga.com/etiquetado-de-productos-quimicos-y-fds/etiquetas-y-pictogramas/',
     },
     {
       referencia:
-        'Resolución 0811. Ministerio de Protección Social [MPS] y Ministerio de Ambiente Vivienda y Desarrollo Territorial [MAVDT]. Bogotá. Colombia. 18 de marzo 2020',
+        'Resolución 0811. <em>Ministerio de Protección Social [MPS] y Ministerio de Ambiente Vivienda y Desarrollo Territorial</em> [MAVDT]. Bogotá. Colombia. 18 de marzo 2020.',
       link: 'http://www.minvivienda.gov.co/ResolucionesAgua/0811-%202008.pdf',
     },
     {
       referencia:
-        'Sandoval, L. (2004). Capítulo III Aseguramiento de la calidad, muestreo y análisis en sistema de aireación extendida.',
+        'Sandoval, L. (2004). <em>Capítulo III Aseguramiento de la calidad, muestreo y análisis en sistema de aireación extendida.</em>',
       link:
         'http://documentacion.ideam.gov.co/openbiblio/bvirtual/018834/MEMORIAS2004/CapituloIII/1TecnicasdeMuestreoLucianoSandoval2.pdf',
     },

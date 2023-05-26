@@ -8,21 +8,18 @@
       h1 Cadena de custodia
     
     .container-100.d-flex.flex-wrap.align-items-center.py-2.mb-5(style="background-color: #F0FBFF")
-      img.mb-4.mb-md-0(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 88px")
-      p.mb-0.ps-md-4.col-md A continuación, se relacionan los <b>principales procesos que se realizan en el proceso de análisis, transporte y recolección de muestras de agua</b> durante el desarrollo de la cadena de custodia para garantizar el control durante el ciclo de vida completo.
+      img.mb-4.mb-md-0(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 88px" data-aos="fade-right")
+      p.mb-0.ps-md-4.col-md(data-aos="fade-left") A continuación, se relacionan los <b>principales procesos que se realizan en el proceso de análisis, transporte y recolección de muestras de agua</b> durante el desarrollo de la cadena de custodia para garantizar el control durante el ciclo de vida completo.
 
     .d-flex.flex-wrap.mb-5
       img.mx-auto.mb-4.mb-lg-auto.col-lg-4(src="@/assets/curso/temas/tema1/img-2.jpg" style="max-width: 400px")
       TabsA.ps-md-4.col-lg-8.color-acento-contenido.mb-5.tabs-edit
-        .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Análisis de una muestra de agua")
-          h4 Análisis de una muestra de agua
-          p Realizar análisis de una muestra de agua no solo implica la toma y procesamiento, también se deben establecer parámetros definidos que permitan, no solo analizar la muestra, sino las condiciones en las cuales fue tomada y transportada.
-          img(src="@/assets/curso/temas/tema1/img-3.png")
-        .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Proceso de transporte")
-          h4 Proceso de transporte
+        .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Análisis de <br class='d-none d-lg-flex d-xl-none'>una muestra de <br class='d-none d-lg-flex d-xxl-none'>agua")
+          p(data-aos="fade-right") Realizar análisis de una muestra de agua no solo implica la toma y procesamiento, también se deben establecer parámetros definidos que permitan, no solo analizar la muestra, sino las condiciones en las cuales fue tomada y transportada.
+          img(src="@/assets/curso/temas/tema1/img-3.png" data-aos="fade-left")
+        .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Proceso de <br class='d-none d-lg-flex d-xl-none'> transporte")
           p El proceso de transporte, preservación, almacenamiento y recepción de la muestra, pueden darse diferentes acciones que si no son reglamentadas alteran de manera definitiva el contenido de la misma; por ejemplo, si el recipiente es translúcido se deja en el vehículo sin preservación de frío al rayo del sol por un tiempo considerable, es probable que la muestra sufra cambios en su composición fisicoquímica y microbiológica  unos resultados que no reflejarán la condición real del recurso en el cual se tomó la muestra.
-        .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Supervisión y control constante")
-          h4 Supervisión y control constante
+        .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Supervisión y <br class='d-none d-lg-flex d-xl-none'> control constante")
           p Por ello, en esta última fase de la recolección de muestras, se requiere supervisión y control constante, que debe quedar soportado bajo registros físicos de seguimiento que aseguren la integridad de la muestra.
           img(src="@/assets/curso/temas/tema1/img-4.png")
 
@@ -36,11 +33,11 @@
     .container-100.mb-5(style="background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(232,243,253,1) 50%, rgba(255,255,255,1) 100%);")
       .col-12.col-lg-10.mx-auto
         .titulo-sexto.color-secundario
-          h5 Figura 1.
-          p.mb-0.text-small Diagrama de elementos de un plan de muestreo.
+          h5 Figura 1
+          p.mb-0.text-small Diagrama de elementos de un plan de muestreo
         figure
           img.mb-3(src="@/assets/curso/temas/tema1/img-6.svg")
-          figcaption(style="background-color: #F6F6F6") Fuente: Instituto nacional de salud [INS]. (2011). Manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo humano para análisis de laboratorio. 
+          figcaption(style="background-color: #F6F6F6") Fuente: Instituto Nacional de Salud [INS]. (2011). Manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo humano para análisis de laboratorio. 
     
     p.mb-5 De manera general y de acuerdo con el Instituto Nacional de Salud [INS] en su manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo humano, para análisis de laboratorio, se podría determinar que la cadena de custodia involucra la definición de criterios para las siguientes actividades:  
 
@@ -79,8 +76,8 @@
 
     .col-12.col-lg-10.mx-auto
       .titulo-sexto.color-secundario
-        h5 Figura 1.
-        p.mb-0.text-small Diagrama de elementos de un plan de muestreo.
+        h5 Tabla 1
+        p.mb-0.text-small Diagrama de elementos de un plan de muestreo
       figure
         img.mb-3(src="@/assets/curso/temas/tema1/img-9.svg")
         figcaption(style="background-color: #F6F6F6") Formato ilustrativo de cómo registrar la información requerida en el proceso de muestreo de acuerdo con la cadena de custodia (Icontec, 2004). 
@@ -92,7 +89,7 @@
     .img-texto-offset.mb-5
       img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema1/img-10.jpg")
       .container-offset.col-lg-10.mx-auto
-        p Para la toma y recolección de muestras en campo, Icontec (2004) en su Guía Técnica Colombiana (GTC) 109, Recomienda que se asigne a una sola persona la custodia de la muestra, con el fin de que sea manipulada por la menor cantidad posible de personas. Al encargado, se le reconocerá como el muestreador de campo, quien se responsabilizará de la toma hasta la transferencia adecuada al lugar de análisis (p.4).
+        p Para la toma y recolección de muestras en campo, Icontec (2004) en su Guía Técnica Colombiana (GTC) 109, recomienda que se asigne a una sola persona la custodia de la muestra, con el fin de que sea manipulada por la menor cantidad posible de personas. Al encargado, se le reconocerá como el muestreador de campo, quien se responsabilizará de la toma hasta la transferencia adecuada al lugar de análisis (p.4).
 
     .titulo-edit.mb-5
       h3 Documentación de custodia en campo
@@ -174,15 +171,15 @@
           li 
             .lista-ol--cuadro__vineta(style="background-color: transparent")
               img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-            | Empacar los frascos o recipientes con las muestras en neveras de icopor portátiles refrigeradas con bolsas con hielo o ice packs.
+            | Empacar los frascos o recipientes con las muestras en neveras de icopor portátiles refrigeradas con bolsas con hielo o <em>ice packs</em>.
           li 
             .lista-ol--cuadro__vineta(style="background-color: transparent")
               img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-            | Durante el transporte se recomienda refrigerar a 4° C y proteger la muestra de la luz (siempre tapada), contabilizar tiempos de traslado para eliminar la posibilidad de contaminar la muestra con hielo derretido.
+            | Durante el transporte se recomienda refrigerar a 4°C y proteger la muestra de la luz (siempre tapada), contabilizar tiempos de traslado para eliminar la posibilidad de contaminar la muestra con hielo derretido.
           li 
             .lista-ol--cuadro__vineta(style="background-color: transparent")
               img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-            | En el caso de análisis microbiológico es indispensable que la muestra se mantenga refrigerada hasta su arribo al laboratorio; ya que, tanto las temperaturas mayores a 6º C como la luz, provocan la multiplicación de los microorganismos e invalidan la muestra, dado que los resultados no reflejarán la realidad.
+            | En el caso de análisis microbiológico es indispensable que la muestra se mantenga refrigerada hasta su arribo al laboratorio; ya que, tanto las temperaturas mayores a 6ºC como la luz, provocan la multiplicación de los microorganismos e invalidan la muestra, dado que los resultados no reflejarán la realidad.
           li 
             .lista-ol--cuadro__vineta(style="background-color: transparent")
               img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
@@ -228,14 +225,14 @@
       .col-lg-7.col-xl-8.ps-lg-4
         p.mb-4 Es esencial que los preservantes utilizados no alteren la muestra de agua para los ensayos requeridos y de igual manera, se recomienda revisar la literatura y norma referente al uso de algunos compuestos químicos que podrían generar reacciones, como por ejemplo el uso de hidróxido de sodio (NaOH), ya que puede generar calentamiento local.
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #E0F4FE")
-          p.mb-0 De acuerdo con Icontec (2004), en su Norma técnica colombiana [NTC] 5667-3, indica que, para alguna determinación, en especial las de elementos traza, es esencial efectuar un ensayo en blanco, considerando la posibilidad de que los preservantes introduzcan una cantidad adicional de elementos que van a determinar (por ejemplo, que usar ácidos pueden introducir una cantidad de arsénico, plomo y mercurio).
+          p.mb-0 De acuerdo con Icontec (2004), en su Norma Técnica Colombiana [NTC] 5667-3, indica que, para alguna determinación, en especial las de elementos traza, es esencial efectuar un ensayo en blanco, considerando la posibilidad de que los preservantes introduzcan una cantidad adicional de elementos que van a determinar (por ejemplo, que usar ácidos pueden introducir una cantidad de arsénico, plomo y mercurio).
 
     .titulo-edit.mb-5
       h3 Reactivos
     
     .container-100.d-flex.flex-wrap.align-items-center.py-2.mb-5(style="background-color: #F0FBFF")
       img.mb-4.mb-md-0(src="@/assets/curso/temas/tema1/img-22.svg" style="max-width: 88px")
-      p.mb-0.ps-md-4.col-md En este apartado se enlistan algunos de los reactivos que se usan para preservar las muestras; sin embargo, es importante que cada una de esas sustancias también sean rotuladas con la vida media (fecha de caducidad), la cual no debe ser excedida y se debe marcar la muestra a la cual se le adicionó el preservante. Teniendo en cuenta Icontec en la norma técnica colombiana (NTC) 5667-3 del 2004, los reactivos serían:
+      p.mb-0.ps-md-4.col-md En este apartado se enlistan algunos de los reactivos que se usan para preservar las muestras; sin embargo, es importante que cada una de esas sustancias también sean rotuladas con la vida media (fecha de caducidad), la cual no debe ser excedida y se debe marcar la muestra a la cual se le adicionó el preservante. Teniendo en cuenta Icontec en la Norma Técnica Colombiana (NTC) 5667-3 del 2004, los reactivos serían:
 
     .row.align-items-stretch
       .col-lg-6.d-flex
@@ -254,7 +251,7 @@
           .tarjeta
             .p-4
               h2 Soluciones
-              p Solución de acetato de cinc (p =1,7 g/ml) C4H6O4Zn, ácido clorhídrico (p= 1.16 g/ml) HCL, Ácido sulfúrico (8 mol/l) H2SO4, entre otros (p.9).
+              p Solución de acetato de cinc (p =1,7 g/ml) C4H6O4Zn, ácido clorhídrico (p= 1.16 g/ml) HCL, ácido sulfúrico (8 mol/l) H2SO4, entre otros (p.9).
 
     .tarjeta.color-acento-contenido.p-3.mb-5.col-lg-10.mx-auto
       .row.justify-content-around.align-items-center
@@ -358,11 +355,11 @@
         li 
           .lista-ol--cuadro__vineta(style="background-color: transparent")
             img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-          | Guía técnica colombiana [GTC] 82 de Icontec, Guía de buenas prácticas para laboratorios que realizan muestreo y análisis de agua del 2002, la cual brinda criterios mínimos que todos los laboratorios deberían considerar al establecer sus prácticas.
+          | Guía Técnica Colombiana [GTC] 82 de Icontec, guía de buenas prácticas para laboratorios que realizan muestreo y análisis de agua del 2002, la cual brinda criterios mínimos que todos los laboratorios deberían considerar al establecer sus prácticas.
         li 
           .lista-ol--cuadro__vineta(style="background-color: transparent")
             img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
-          | Guía técnica colombiana [GTC] 109, Guía para la planificación de la calidad e implementación de un programa de medición en campo de la calidad del agua del 2004, la cual brinda orientaciones desde la definición de objetivos de calidad hasta la evaluación de la calidad de los datos.
+          | Guía Técnica Colombiana [GTC] 109, guía para la planificación de la calidad e implementación de un programa de medición en campo de la calidad del agua del 2004, la cual brinda orientaciones desde la definición de objetivos de calidad hasta la evaluación de la calidad de los datos.
 
     
     .tarjeta.color-acento-contenido.p-3.mb-5.col-lg-10.mx-auto
@@ -384,7 +381,7 @@
     .img-texto-offset.mb-5
       img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema1/img-28.jpg")
       .container-offset.col-lg-10.mx-auto
-        p Por último, lo invitamos a consultar y analizar los diagramas que presenta el Instituto de Hidrología, Meteorología y Estudios Ambientales [Ideam], en el documento “<b>Toma y preservación de muestras</b>”, en las páginas 17 a la 20, que encontrará en el material de apoyo de esta componente.
+        p Por último, lo invitamos a consultar y analizar los diagramas que presenta el Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM], en el documento “<b>Toma y preservación de muestras</b>”, en las páginas 17 a la 20, que encontrará en el material de apoyo de esta componente.
 
 
     .tarjeta.color-acento-contenido.p-3.col-lg-10.mx-auto
