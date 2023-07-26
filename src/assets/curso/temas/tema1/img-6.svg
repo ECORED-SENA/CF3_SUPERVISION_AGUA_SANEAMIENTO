@@ -78,7 +78,7 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_1006697" data-name="Grupo 1006697" transform="translate(-382 -1328)">
+  <g id="Grupo_1006700" data-name="Grupo 1006700" transform="translate(-382 -1328)">
     <g transform="matrix(1, 0, 0, 1, 382, 1328)" filter="url(#Trazado_717682)">
       <path id="Trazado_717682-2" data-name="Trazado 717682" d="M118.5,0C183.946,0,237,23.281,237,52s-53.054,52-118.5,52S0,80.719,0,52,53.054,0,118.5,0Z" transform="translate(298 161)" fill="#008b8a"/>
     </g>
