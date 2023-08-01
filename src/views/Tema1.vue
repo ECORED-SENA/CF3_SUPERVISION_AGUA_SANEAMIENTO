@@ -12,23 +12,23 @@
       p.mb-0.ps-md-4.col-md(data-aos="fade-left") A continuación, se relacionan los <b>principales procesos que se realizan en el proceso de análisis, transporte y recolección de muestras de agua</b> durante el desarrollo de la cadena de custodia para garantizar el control durante el ciclo de vida completo.
 
     .d-flex.flex-wrap.mb-5
-      img.mx-auto.mb-4.mb-lg-auto.col-lg-4(src="@/assets/curso/temas/tema1/img-2.jpg" style="max-width: 400px" data-aos="fade-right")
+      img.mx-auto.mb-4.mb-lg-auto.col-lg-4(src="@/assets/curso/temas/tema1/img-2.jpg" style="max-width: 400px" data-aos="fade-right" alt="Imagen decorativa")
       TabsA.ps-md-4.col-lg-8.color-acento-contenido.mb-5.tabs-edit(data-aos="fade-left")
         .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Análisis de <br class='d-none d-lg-flex d-xl-none'>una muestra de <br class='d-none d-lg-flex d-xxl-none'>agua")
           p(data-aos="fade-right") Realizar análisis de una muestra de agua no solo implica la toma y procesamiento, también se deben establecer parámetros definidos que permitan, no solo analizar la muestra, sino las condiciones en las cuales fue tomada y transportada.
-          img(src="@/assets/curso/temas/tema1/img-3.png" data-aos="fade-left")
+          img(src="@/assets/curso/temas/tema1/img-3.png" data-aos="fade-left" alt="Imagen decorativa")
         .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Proceso de <br class='d-none d-lg-flex d-xl-none'> transporte")
           p El proceso de transporte, preservación, almacenamiento y recepción de la muestra, pueden darse diferentes acciones que si no son reglamentadas alteran de manera definitiva el contenido de la misma; por ejemplo, si el recipiente es translúcido se deja en el vehículo sin preservación de frío al rayo del sol por un tiempo considerable, es probable que la muestra sufra cambios en su composición fisicoquímica y microbiológica  unos resultados que no reflejarán la condición real del recurso en el cual se tomó la muestra.
         .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Supervisión y <br class='d-none d-lg-flex d-xl-none'> control constante")
           p Por ello, en esta última fase de la recolección de muestras, se requiere supervisión y control constante, que debe quedar soportado bajo registros físicos de seguimiento que aseguren la integridad de la muestra.
-          img(src="@/assets/curso/temas/tema1/img-4.png")
+          img(src="@/assets/curso/temas/tema1/img-4.png" alt="Imagen decorativa")
 
     .d-flex.flex-wrap.mb-5
       .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p.mb-4 De acuerdo con <b>el Instituto Colombiano de Normas Técnicas y Certificación (Icontec, 2004),</b> en la Guía Técnica Colombiana (GTC  100) para procedimientos de cadena de custodia de muestras, se define la cadena de custodia como el procedimiento que se da cuando una muestra está bajo posesión o control físico de alguien, de modo que se debe evitar la manipulación indebida o alteración de sus características desde la toma de la muestra hasta que se desecha (p.3).
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #E0F4FE")
           p Como se puede evidenciar en la figura 1, la cadena de custodia es un proceso de control y seguimiento que se inicia antes de la toma de la muestra, ya que debe ser la base para su programación desde el plan de muestreo.
-      img.col-lg-5.mb-4.mb-lg-auto.order-1.order-lg-2.ps-lg-5.mx-auto(src="@/assets/curso/temas/tema1/img-5.png" style="max-width: 480px" data-aos="fade-left")
+      img.col-lg-5.mb-4.mb-lg-auto.order-1.order-lg-2.ps-lg-5.mx-auto(src="@/assets/curso/temas/tema1/img-5.png" style="max-width: 480px" data-aos="fade-left" alt="Imagen decorativa")
     
     .container-100.mb-5(style="background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(232,243,253,1) 50%, rgba(255,255,255,1) 100%);")
       .col-12.col-lg-10.mx-auto
@@ -36,13 +36,13 @@
           h5 Figura 1
           p.mb-0.text-small Diagrama de elementos de un plan de muestreo
         figure
-          img.mb-3(src="@/assets/curso/temas/tema1/img-6.svg" data-aos="fade-left")
+          img.mb-3(src="@/assets/curso/temas/tema1/img-6.svg" data-aos="fade-left" alt="Muestra los elementos del plan de muestreo, que son: identificación de la población, número de muestra, POE muestreo, muestra tratamiento de los recipientes, cadena de custodia, submuestreo, tipo de muestra, tamaño de la muestra, calibración y muestreo y tiempo de almacenamiento.")
           figcaption(style="background-color: #F6F6F6") Fuente: Instituto Nacional de Salud [INS]. (2011). Manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo humano para análisis de laboratorio. 
     
     p.mb-5(data-aos="fade-right") De manera general y de acuerdo con el Instituto Nacional de Salud [INS] en su manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo humano, para análisis de laboratorio, se podría determinar que la cadena de custodia involucra la definición de criterios para las siguientes actividades:  
 
     .col-lg-10.mx-auto.d-flex.flex-wrap.mb-5
-      img.col-lg-7.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-7.jpg" style="max-width: 610px" data-aos="fade-right")
+      img.col-lg-7.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-7.jpg" style="max-width: 610px" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-5.ps-lg-4
         .list-number
           span(data-aos="fade-right") 01
@@ -69,7 +69,7 @@
     .col-lg-10.mx-auto.bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(style="background-color: #F6F6F6")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/temas/tema1/img-8.svg" style="max-width: 252px" data-aos="fade-right")
+          img.mx-auto(src="@/assets/curso/temas/tema1/img-8.svg" style="max-width: 252px" data-aos="fade-right" alt="Imagen decorativa")
         .col-lg-8
           .bloque-texto-a__texto.p-4(data-aos="fade-left")
             p Luego, la importancia de la cadena de custodia es garantizar el soporte de los datos y conclusiones a los que se llegue con el estudio o ensayo de muestreo de forma adecuada en una situación legal o reglamentaria, busca mantener registros (Tabla 1) que certifiquen que los procedimientos fueron desarrollados según condiciones técnicas y que los resultados son verídicos y fiables (Icontec, 2004). 
@@ -79,7 +79,7 @@
         h5 Tabla 1
         p.mb-0.text-small Ejemplo de registro de cadena de custodia
       figure
-        img.mb-3(src="@/assets/curso/temas/tema1/img-9.svg" data-aos="fade-left")
+        img.mb-3(src="@/assets/curso/temas/tema1/img-9.svg" data-aos="fade-left" alt="Muestra un formato de diagrama de elementos de un plan de muestreo, debe llevar , el número de proyecto, el nombre, el nombre de los muestreadores, estación, fecha, hora, comp, puntual, sitio de la estación, número de recipientes observaciones y firmas.")
         figcaption(style="background-color: #F6F6F6") Formato ilustrativo de cómo registrar la información requerida en el proceso de muestreo de acuerdo con la cadena de custodia (Icontec, 2004). 
     Separador
 
@@ -87,7 +87,7 @@
       h2#t_1_1 1.1 Fase de toma de muestras 
     
     .img-texto-offset.mb-5
-      img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema1/img-10.jpg")
+      img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema1/img-10.jpg" alt="Imagen decorativa")
       .container-offset.col-lg-10.mx-auto(data-aos="fade-up")
         p Para la toma y recolección de muestras en campo, Icontec (2004) en su Guía Técnica Colombiana (GTC) 109, recomienda que se asigne a una sola persona la custodia de la muestra, con el fin de que sea manipulada por la menor cantidad posible de personas. Al encargado, se le reconocerá como el muestreador de campo, quien se responsabilizará de la toma hasta la transferencia adecuada al lugar de análisis (p.4).
 
@@ -97,7 +97,7 @@
     p.mb-5(data-aos="fade-right") Se deben diseñar los formatos que se requieran para la actividad de campo de recolección de muestras, pueden ser diseñados por muestra o para múltiples muestras, como se muestra a continuación:
 
     .container-100.mb-5.d-flex.flex-wrap(style="background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(232,243,253,1) 50%, rgba(255,255,255,1) 100%);")
-      img.col-lg-5.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-11.svg" data-aos="fade-right")
+      img.col-lg-5.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-11.svg" data-aos="fade-right" alt="Imagen decorativa")
       LineaTiempoD.col-lg-7.ps-lg-4.color-acento-contenido(data-aos="fade-left")
         p.text-small(numero="1" titulo="Rotulado") El rotulado de identificación de las muestras que especifique el punto exacto donde se tomó, junto con la fecha y la hora. 
         p.text-small(numero="2" titulo="Registro") El registro de campo, contiene campos, con la siguiente información: nombre e identificación de la muestra, ubicación del muestreo, fecha e intervalo de tiempo, firmas de quien realizó la actividad, preservación (cantidad y tipo), número de recipientes, número de réplicas (si aplica), notas de campo, análisis deseado, tipo de muestra.  
@@ -114,7 +114,7 @@
         p.mb-4 El proceso del almacenamiento y transporte es fundamental en el análisis de muestras, si no se realiza según las medidas técnicas reglamentarias, la muestra podría sufrir alteraciones y no reflejar resultados verídicos.
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #E0F4FE")
           p.mb-0 De acuerdo con el Instituto Nacional de Salud [INS] (2011), en su manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo humano para análisis de laboratorios, se determinan las siguientes consideraciones teniendo en cuenta el tipo de almacenamiento de las muestras:
-      img.col-lg-5.col-xl-4.mb-4.mb-lg-auto.order-1.order-lg-2.ps-lg-5.mx-auto(src="@/assets/curso/temas/tema1/img-12.png" style="max-width: 480px" data-aos="fade-left")
+      img.col-lg-5.col-xl-4.mb-4.mb-lg-auto.order-1.order-lg-2.ps-lg-5.mx-auto(src="@/assets/curso/temas/tema1/img-12.png" style="max-width: 480px" data-aos="fade-left" alt="Imagen decorativa")
 
     .titulo-edit.mb-5
       h3 Muestras no refrigeradas
@@ -184,8 +184,8 @@
             .lista-ol--cuadro__vineta(style="background-color: transparent" data-aos="fade-right")
               img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
             | Se recomienda que todas las muestras de un mismo sitio de muestreo se empaquen en un mismo recipiente de almacenamiento (nevera).
-      img.col-lg-5.order-1.order-lg-2.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-18.svg" style="max-width: 448px" data-aos="fade-left")
-      img.col-lg-5.mb-5.order-3.mx-auto(src="@/assets/curso/temas/tema1/img-19.svg" style="max-width: 448px" data-aos="fade-right")
+      img.col-lg-5.order-1.order-lg-2.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-18.svg" style="max-width: 448px" data-aos="fade-left" alt="Imagen decorativa")
+      img.col-lg-5.mb-5.order-3.mx-auto(src="@/assets/curso/temas/tema1/img-19.svg" style="max-width: 448px" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-7.order-4.order-4
         ol.lista-ol--cuadro.lista-ol--separador
           li 
@@ -212,7 +212,7 @@
     p.mb-5(data-aos="fade-right") En casos exclusivos donde se requiera ceder o transferir la posesión de la muestra a otros, bien sea por desplazamientos largos u otras dificultades, Icontec (2004) especifica dentro de su GTC 100, que:
 
     .col-lg-10.mx-auto.container-text-img-2.mb-5
-      img.offser-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-20.png" style="max-width: 296px" data-aos="fade-right")
+      img.offser-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-20.png" style="max-width: 296px" data-aos="fade-right" alt="Imagen decorativa")
       p.col-lg.mb-0(data-aos="fade-left") Al transferir la posesión de las muestras, los individuos que ceden y los que reciben deben firmar y anotar la fecha y hora en el registro de la custodia; se deberá documentar, además, cualquier apertura o cierre de los recipientes y estos formarán parte del registro de cadena de custodia (p.6).
 
     .titulo-edit.mb-5
@@ -221,7 +221,7 @@
     p.mb-5(data-aos="fade-right") Algunas muestras, dependiendo de su objetivo de análisis, van a requerir preservación con productos químicos; de acuerdo con Sandoval (2004) estos se adicionan con el objeto de detener o retardar las reacciones bioquímicas que se llevan a cabo en las muestras hasta el momento de efectuar su análisis. Entre los preservadores químicos más utilizados están <b>el ácido clorhídrico (HCl), el sulfúrico (H2SO4), nítrico (HNO3) y el tiosulfato de sodio (Na2S2O3)</b> (p.6).
 
     .d-flex.flex-wrap.mb-5
-      img.col-lg-5.col-xl-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-21.png" style="max-width: 480px" data-aos="fade-right")
+      img.col-lg-5.col-xl-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-21.png" style="max-width: 480px" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-7.col-xl-8.ps-lg-4(data-aos="fade-left")
         p.mb-4 Es esencial que los preservantes utilizados no alteren la muestra de agua para los ensayos requeridos y de igual manera, se recomienda revisar la literatura y norma referente al uso de algunos compuestos químicos que podrían generar reacciones, como por ejemplo el uso de hidróxido de sodio (NaOH), ya que puede generar calentamiento local.
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #E0F4FE")
@@ -270,7 +270,7 @@
     h4.mb-5 Aclaraciones pertinentes
 
     .col-lg-11.mx-auto.d-flex.flex-wrap.mb-5
-      img.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-25.png" data-aos="fade-right")
+      img.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-25.png" data-aos="fade-right" alt="Imagen decorativa")
       ol.col-lg-6.ps-lg-4.lista-ol--cuadro.lista-ol--separador
         li 
           .lista-ol--cuadro__vineta(style="background-color: #ED8E1E" data-aos="fade-up")
@@ -302,7 +302,7 @@
     p.mb-5(data-aos="fade-right") El último paso es la entrega de las muestras al laboratorio, debe tener en cuenta que usualmente los registros de cadena de custodia se mantienen en papel físico por las firmas; sin embargo, existen maneras de llevar este registro por medio de medios ofimáticos o tecnológicos con firmas digitales.
 
     .d-flex.flex-wrap.mb-5
-      img.col-lg-5.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-26.png" style="max-width: 480px" data-aos="fade-right")
+      img.col-lg-5.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-26.png" style="max-width: 480px" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-7.ps-lg-4
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #F7F8FB" data-aos="fade-left")
           p.mb-0 En esta última fase se puede realizar la entrega de las muestras de agua al laboratorio o bien procesar su ingreso para que las mismas personas que tomaron el muestreo realicen los análisis fisicoquímico y microbiológico, en ambos casos se debe garantizar la cadena de custodia realizando las siguientes acciones, de acuerdo con INS (2011):
@@ -310,17 +310,17 @@
     .container-100.d-flex.flex-wrap.py-5(style="background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(232,243,253,1) 50%, rgba(255,255,255,1) 100%);")
       PasosA.col-xl-10.mx-auto.color-acento-botones.mb-5.pasos-edit(tipo="n")
         .d-flex.flex-wrap
-          img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/pasos-1.svg" style="max-width: 57px" data-aos="fade-right")
+          img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/pasos-1.svg" style="max-width: 57px" data-aos="fade-right" alt="Imagen decorativa")
           p.col-md.ps-md-4.mb-0(data-aos="fade-left") Las muestras deben registrarse en cuanto lleguen al laboratorio. El procedimiento de entrada y registro de la muestra es importante para los propósitos de la cadena de custodia. La siguiente información debe requerirse: número de código de la muestra, nombre de la persona que recibe, nombre de los tomadores de la muestra, número del método de muestreo y localización de almacenamiento.
         .d-flex.flex-wrap
           p.order-2.order-md-1.col-md.pe-md-4.mb-0(data-aos="fade-right") Se debe inspeccionar el etiquetado y rotulado, y compararlo con el registro de campo, si es conforme (si concuerdan y es acorde con los procedimientos técnicos) el que recibe firmará la recepción incluyendo fecha y hora.
-          img.ms-auto.mb-4.mb-md-auto.order-1.order-md-2(src="@/assets/curso/temas/tema1/pasos-2.svg" style="max-width: 86px" data-aos="fade-left")
+          img.ms-auto.mb-4.mb-md-auto.order-1.order-md-2(src="@/assets/curso/temas/tema1/pasos-2.svg" style="max-width: 86px" data-aos="fade-left" alt="Imagen decorativa")
         .d-flex.flex-wrap
-          img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/pasos-3.svg" style="max-width: 80px" data-aos="fade-right")
+          img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/pasos-3.svg" style="max-width: 80px" data-aos="fade-right" alt="Imagen decorativa")
           p.col-md.ps-md-4.mb-0(data-aos="fade-left") Cuando exista no conformidad, el que recolectó la muestra deberá anotar las observaciones, las inconformidades encontradas en la parte de atrás del registro, con fecha y hora.
         .d-flex.flex-wrap
           p.order-2.order-md-1.col-md.pe-md-4.mb-0(data-aos="fade-right") Para los dos casos mencionados se debe registrar la llegada en los registros de laboratorio y se guardan las muestras en el cuarto frío, se define si se procesan o no las no conformes, pero, una vez se inicie el análisis de laboratorio, la cadena de custodia para el cuidado y vigilancia del analista.
-          img.ms-auto.mb-4.mb-md-auto.order-1.order-md-2(src="@/assets/curso/temas/tema1/pasos-4.svg" style="max-width: 61px" data-aos="fade-left")
+          img.ms-auto.mb-4.mb-md-auto.order-1.order-md-2(src="@/assets/curso/temas/tema1/pasos-4.svg" style="max-width: 61px" data-aos="fade-left" alt="Imagen decorativa")
         .d-flex.flex-wrap
           img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/pasos-5.svg" style="max-width: 84px" data-aos="fade-right")
           p.col-md.ps-md-4.mb-0(data-aos="fade-left") Es importante tener claro que el tiempo aconsejado como máximo para transporte y entrega a laboratorio, es de seis (6) horas, si no se puede cumplir se debe realizar acciones de preservación para asegurar su entrega.
@@ -334,15 +334,15 @@
     .tarjeta.slydera-edit.p-4.mb-5(style="background-color: #F6F6F6;" data-aos="fade-left")
       SlyderA(tipo="b")
         .row.col-lg-10.mx-auto.align-items-center
-          img.col-md-4.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/sla-1.svg')
+          img.col-md-4.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/sla-1.svg' alt="Imagen decorativa")
           .col-md-8.mb-4.mb-md-0
             p.mb-0 Toda actividad de toma y análisis de muestras implica una responsabilidad sobre garantizar que los resultados que arroje sí sean evidencia sobre el estado del recurso o vertimiento analizado.
         .row.col-lg-10.mx-auto.align-items-center
           .col-md-8.mb-4.mb-md-0.order-2.order-md-1
             p.mb-0 Dentro del aseguramiento de la calidad de esos resultados, se encuentra la oportunidad de réplica, esto indica que, si otra organización toma otra muestra en el mismo sitio de muestreo, bajo los mismos parámetros y condiciones de la inicial, los resultados no deben presentar variaciones estadísticamente significativas.
-          img.col-md-4.mb-4.mb-md-0.order-1.order-md-2(src='@/assets/curso/temas/tema1/sla-2.svg')
+          img.col-md-4.mb-4.mb-md-0.order-1.order-md-2(src='@/assets/curso/temas/tema1/sla-2.svg' alt="Imagen decorativa")
         .row.col-lg-10.mx-auto.align-items-center
-          img.col-md-4.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/sla-3.svg')
+          img.col-md-4.mb-4.mb-md-0(src='@/assets/curso/temas/tema1/sla-3.svg' alt="Imagen decorativa")
           .col-md-8.mb-4.mb-md-0
             p.mb-0 Para garantizar que esto suceda, se crean las guías técnicas que brindan la información mínima para tener en cuenta en el desarrollo de cualquiera de las fases de la toma de muestras. Como su nombre lo indica es una guía, pero no implica que se deroguen o se encuentren en contravía de la normatividad nacional; por el contrario, siempre deben ser un complemento a la norma nacional vigente al momento de tomar las muestras.
 
@@ -350,7 +350,7 @@
 
 
     .d-flex.flex-wrap.mb-5
-      img.col-lg-5.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-27.png' data-aos="fade-right")
+      img.col-lg-5.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema1/img-27.png' data-aos="fade-right" alt="Imagen decorativa")
       ol.col-lg-7.lista-ol--cuadro.lista-ol--separador.ps-lg-4
         li 
           .lista-ol--cuadro__vineta(style="background-color: transparent" data-aos="fade-right")
@@ -379,7 +379,7 @@
     h3.mb-4 Diagramas de resumen
 
     .img-texto-offset.mb-5
-      img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema1/img-28.jpg")
+      img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema1/img-28.jpg" alt="Imagen decorativa")
       .container-offset.col-lg-10.mx-auto(data-aos="fade-up")
         p Por último, lo invitamos a consultar y analizar los diagramas que presenta el Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM], en el documento “<b>Toma y preservación de muestras</b>”, en las páginas 17 a la 20, que encontrará en el material de apoyo de esta componente.
 

@@ -8,7 +8,7 @@
       h1 Protocolos de laboratorio
     
     .d-flex.flex-wrap
-      img.col-lg-5.col-xl-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-1.png" style="max-width: 480px" data-aos="fade-right")
+      img.col-lg-5.col-xl-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-1.png" style="max-width: 480px" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-7.col-xl-8.ps-lg-4(data-aos="fade-left")
         p.mb-4 Estandarizar los procesos que se realizan en el laboratorio es de vital importancia para tener exactitud, precisión y reproducibilidad en los resultados.
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #E0F4FE")
@@ -21,7 +21,7 @@
     p.mb-5(data-aos="fade-right") Las muestras recolectadas en las actividades de supervisión de sistemas de tratamiento y saneamiento pueden tener como fin el control o la vigilancia de los procesos desarrollados. Es necesario que los laboratorios encargados de la recepción y posterior procesamiento de las muestras cumplan no solo a cabalidad los procedimientos establecidos, también se debe procurar la identificación de errores que se presentaron durante el alistamiento de materiales, recolección, conservación, almacenamiento o transporte de la muestra. 
 
     .d-flex.flex-wrap.mb-5
-      img.col-lg-5.col-xl-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 480px" data-aos="fade-right")
+      img.col-lg-5.col-xl-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 480px" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-7.col-xl-8.ps-lg-4(data-aos="fade-left")
         p.mb-4 Para ello, un punto de partida es la verificación de la muestra al momento de su entrega al laboratorio, en la que el recepcionista debe verificar inicialmente que el tiempo máximo de entrega definido para el tipo de muestra no se haya superado; posteriormente, se debe verificar la condición de la muestra y del sello. Una vez realizada, se procede con la comparación de la información de la etiqueta y sello, con la información registrada en los formatos de toma de muestra y cadena de custodia (Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM], s.f.).
 
@@ -49,7 +49,7 @@
       h2#t_2_2 2.2 Formatos y registros de laboratorios
     
     .img-texto-offset.mb-5
-      img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema2/img-4.jpg")
+      img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema2/img-4.jpg" alt="Imagen decorativa")
       .container-offset.col-lg-10.mx-auto(data-aos="fade-up")
         p En términos generales, cada laboratorio debe formular los procedimientos y respectivos formatos que permitan establecer los lineamientos y registros necesarios para cada proceso desarrollado. Propendiendo así por una reducción en la desviación de los estándares y trazabilidad. 
 
@@ -61,7 +61,7 @@
         p.mb-4 Los formatos son documentos que, mediante tablas o espacios debidamente delimitados, solicitan el diligenciamiento de información específica sobre una actividad determinada. Los formatos generalmente están asociados a un protocolo de laboratorio, porque son documentos necesarios para registrar la ejecución de las actividades descritas en los protocolos. Así, por ejemplo, existen formatos para evidenciar y consignar la información relacionada con el alistamiento del material, otros asociados a la toma de muestras especiales, al transporte y recepción de las muestras, como se ha expuesto en temas anteriores.  
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #F7F8FB")
           p.mb-0 Es recomendable que los formatos, a su vez, puedan tener asociados unas guías o instructivos para aclarar su diligenciamiento.
-      img.col-lg-5.col-xl-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 480px" data-aos="fade-left")
+      img.col-lg-5.col-xl-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 480px" data-aos="fade-left" alt="Imagen decorativa")
 
     .container-100.d-flex.flex-wrap.align-items-center.py-2(style="background-color: #F0FBFF")
       img.mb-4.mb-md-0(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 88px")
@@ -89,7 +89,7 @@
             .lista-ol--cuadro__vineta(style="background-color: transparent" data-aos="fade-right")
               img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 20px")
             | Localización de almacenamiento de la muestra.
-        img.col-lg-5.mb-4.mb-lg-auto.order-1.order-lg-2(src='@/assets/curso/temas/tema2/img-7.png' data-aos="fade-left")
+        img.col-lg-5.mb-4.mb-lg-auto.order-1.order-lg-2(src='@/assets/curso/temas/tema2/img-7.png' data-aos="fade-left" alt="Imagen decorativa")
 
       .tarjeta.color-acento-contenido.p-3.col-lg-10.mx-auto.mb-5(data-aos="fade-left")
         .row.justify-content-around.align-items-center
@@ -111,7 +111,7 @@
     .col-lg-10.mx-auto.bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(style="background-color: #F6F6F6")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/temas/tema2/img-13.svg" style="max-width: 252px")
+          img.mx-auto(src="@/assets/curso/temas/tema2/img-13.svg" style="max-width: 252px" alt="Imagen decorativa")
         .col-lg-8
           .bloque-texto-a__texto.p-4(data-aos="fade-left")
             p Una vez diligenciados los formatos, se convierten en los registros de las actividades de muestreo, documentos que son muy importantes, ya que permitirán la trazabilidad de cualquier hecho asociado al muestreo y al análisis final de los resultados. Los registros son parte fundamental de la cadena de custodia de las muestras, son los documentos donde reposará toda la información asociada al muestreo y se convierten en una herramienta importante para la toma de decisiones basadas en hechos.
@@ -124,7 +124,7 @@
     p.mb-5(data-aos="fade-right") Como se ha mencionado, las actividades en las diferentes etapas de muestreo son susceptibles de presentar errores por diferentes motivos, entre las fuentes identificadas en la Norma Técnica Colombiana NTC-ISO 5667-14, se incluyen (Icontec, 1999):
 
     .d-flex.flex-wrap.mb-5
-      img.col-xl-5.mb-4.mb-xl-auto(src='@/assets/curso/temas/tema2/img-24.png' data-aos="fade-right")
+      img.col-xl-5.mb-4.mb-xl-auto(src='@/assets/curso/temas/tema2/img-24.png' data-aos="fade-right" alt="Imagen decorativa")
       TabsA.col-xl-7.ps-xl-4.color-acento-contenido.mb-5.tabs-edit(data-aos="fade-left")
         .tarjeta.p-4(style="background-color: #F6F6F6" titulo="Contaminación")
           p Causada por recipientes, equipos, manipulación o contaminación cruzada por inapropiado almacenamiento y transporte.
@@ -157,7 +157,7 @@
 
     .container-100.d-flex.flex-wrap.py-5(style="background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(232,243,253,1) 50%, rgba(255,255,255,1) 100%);")
       .d-flex.flex-wrap
-        img.col-lg-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-9.svg" data-aos="fade-right")
+        img.col-lg-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-9.svg" data-aos="fade-right" alt="Imagen decorativa")
         LineaTiempoD.col-lg-7.ps-lg-4.color-acento-contenido(data-aos="fade-left")
           .p-4(numero="1" titulo="Muestras de calidad repetidas")
             p.mb-4 Se utiliza para cubrir una gran variedad de enfoques de calidad que buscan el error aleatorio asociado a diferentes niveles del proceso de muestreo. Estas incluyen el análisis de las siguientes varianzas:
@@ -180,7 +180,7 @@
       h2#t_2_4 2.4 Riesgos en el laboratorio y pictogramas
 
     .img-texto-offset.mb-5
-      img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema2/img-10.jpg")
+      img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema2/img-10.jpg" alt="Imagen decorativa")
       .container-offset.col-lg-10.mx-auto(data-aos="fade-up")
         p En este apartado se desarrollan temas de riesgos asociados a la salud y seguridad de las personas, clasificación de peligros a los cuales se encuentra expuesto el personal y conocerán los pictogramas o símbolos gráficos más utilizados.
 
@@ -190,7 +190,7 @@
     p.mb-5(data-aos="fade-right") Toda actividad humana implica un riesgo y, sin duda, el muestreo tiene asociados algunos riesgos para la salud y seguridad de las personas que lo realizan. Para poder entender e identificar estos riesgos es importante aclarar los siguientes términos (ISO, 2008):
 
     .d-flex.flex-wrap.mb-5
-      img.mb-4.mb-lg-auto.col-lg-5(src="@/assets/curso/temas/tema2/img-11.png" style="max-width: 477px" data-aos="fade-right")
+      img.mb-4.mb-lg-auto.col-lg-5(src="@/assets/curso/temas/tema2/img-11.png" style="max-width: 477px" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-7.ps-lg-4
         .container-card-folder
           span.container-number(data-aos="fade-right") 01
@@ -225,7 +225,7 @@
     p.mb-5(data-aos="fade-right") De acuerdo con la Guía Técnica Colombiana [GTC] 45, los riesgos se pueden clasificar en biológicos, físicos, químicos, psicosociales, biomecánicos, condiciones de seguridad y fenómenos naturales (Icontec, 2012, p. 19).
 
     .d-flex.flex-wrap.mb-5
-      img.col-lg-4.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema2/img-14.png' data-aos="fade-right")
+      img.col-lg-4.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema2/img-14.png' data-aos="fade-right" alt="Imagen decorativa")
       ol.col-lg-8.lista-ol--cuadro.lista-ol--separador.ps-lg-4
         li 
           .lista-ol--cuadro__vineta(style="background-color: transparent" data-aos="fade-right")
@@ -252,10 +252,10 @@
               br
               br
               |La exposición a este peligro puede aumentar durante el muestreo de aguas residuales. Por ello, durante estos muestreos es indispensable contar con máscaras faciales y guantes; así mismo, debe hacer desinfección de los recipientes y elementos que hayan entrado en contacto con estas aguas.
-          img.mb-4.mb-md-0.col-md-4.order-1.order-md-2(src='@/assets/curso/temas/tema2/sla-1.svg')
+          img.mb-4.mb-md-0.col-md-4.order-1.order-md-2(src='@/assets/curso/temas/tema2/sla-1.svg' alt="Imagen decorativa")
         
         .row.col-lg-10.mx-auto.align-items-center
-          img.col-md-4.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/sla-2.svg')
+          img.col-md-4.mb-4.mb-md-0(src='@/assets/curso/temas/tema2/sla-2.svg' alt="Imagen decorativa")
           .col-md-8.mb-4.mb-md-0
             h4 Peligros químicos
             p.mb-0 Los peligros químicos básicamente se originan por la utilización de sustancias químicas durante el alistamiento, toma de muestras, realización de ensayos <em>in situ</em>, transporte de muestras y reactivos para su análisis y preservación. El grado de peligrosidad de estas sustancias químicas dependerá de sus propiedades intrínsecas, es decir, de su capacidad para interferir en procesos biológicos normales, y de su capacidad para arder, explotar, corroer, entre otras.
@@ -264,16 +264,16 @@
           .col-md-8.mb-4.mb-md-0.order-2.order-md-1
             h4 Condiciones de seguridad
             p.mb-0 En las condiciones de seguridad el control principal para evitar lesiones a causa del uso de sustancias químicas es el conocimiento acerca de las propiedades de dichos reactivos. Para ello, las fichas de seguridad de los reactivos, así como el etiquetado, son fundamentales para el control de los riesgos químicos. Actualmente, se utiliza un sistema a nivel internacional para ayudar en ese control de los peligros químicos, denominado el sistema globalmente armonizado.
-          img.col-md-4.mb-4.mb-md-0.order-1.order-md-2(src='@/assets/curso/temas/tema2/sla-3.svg')
+          img.col-md-4.mb-4.mb-md-0.order-1.order-md-2(src='@/assets/curso/temas/tema2/sla-3.svg' alt="Imagen decorativa")
 
     .w-100.titulo-edit.pt-md-4.mb-5
       h3 Pictogramas
     
     .d-flex.flex-wrap.mb-5
-      img.col-lg-4.mb-4.lg-md-0(src='@/assets/curso/temas/tema2/img-15.svg' data-aos="fade-right")
+      img.col-lg-4.mb-4.lg-md-0(src='@/assets/curso/temas/tema2/img-15.svg' data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.ps-lg-5(data-aos="fade-left")
         p Un pictograma es una composición gráfica que sirve para comunicar una información específica. Consta de un símbolo y de otros elementos gráficos, tales como un borde, un dibujo o color de fondo (<em>Global Harmonized System</em> [GHS], 2020). Los pictogramas usualmente hacen parte de las etiquetas de las sustancias químicas.
-        img(src='@/assets/curso/temas/tema2/img-16.svg')
+        img(src='@/assets/curso/temas/tema2/img-16.svg' alt="Muestra los pictogramas de líquidos inflamables, corrosión/irritación cutánea y toxicidad")
     
     .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #D5F6FF" data-aos="fade-right")
       p.mb-0 Con el objetivo de facilitar el intercambio de información en los laboratorios, se creó el Sistema Globalmente Armonizado [SGA], también conocido como GHS, por sus siglas en inglés (<em>Global Harmonized System</em>).
@@ -299,7 +299,7 @@
       h2#t_2_5 2.5 Métodos estándar para análisis de aguas en laboratorio
     
     .d-flex.flex-wrap.mb-5
-      img.col-lg-4.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema2/img-20.jpg' data-aos="fade-right")
+      img.col-lg-4.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema2/img-20.jpg' data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.ps-lg-5(data-aos="fade-left")
         p Una vez se realiza la recepción de las muestras en el laboratorio se procede con la asignación a un analista para su procesamiento. Esto implica someter la muestra objeto de estudio a una serie de procesos que buscan determinar las características de la fuente de origen. Para esto, es necesario cumplir con los métodos definidos y previamente validados para su análisis en el laboratorio.
         .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #D5F6FF")
@@ -309,7 +309,7 @@
       h3 <em>Standard Methods</em>
     p.mb-5(data-aos="fade-right") Realizada la recepción de las muestras en el labortorio se procede con la asignación a un analista para su procesamiento.
     .img-texto-offset.mb-5
-      img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema2/img-21.jpg")
+      img.mb-3.mb-lg-0.d-none.d-md-flex(src="@/assets/curso/temas/tema2/img-21.jpg" alt="Imagen decorativa")
       .container-offset.col-lg-10.mx-auto(data-aos="fade-up")
         p El <em>Standard Methods</em> es un referente que, de manera integral, compila todos los aspectos relacionados con las técnicas de análisis de agua incluyendo las aguas residuales.
 
@@ -318,10 +318,10 @@
         p Este referente ha sido publicado desde 1905 y desde entonces se actualiza constantemente, hoy en día va en su edición número 23. 
         .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #D5F6FF")
           p.mb-0 Esta es una publicación producida con recursos y conocimiento conjunto de las 3 asociaciones de salud pública y agua, reconocidas a nivel mundial: La Asociación Americana de la Salud Pública (APHA), Asociación Americana de trabajos del Agua (AWWA) y La Federación del ambiente agua (WEF). 
-      img.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src='@/assets/curso/temas/tema2/img-22.jpg' data-aos="fade-left")
+      img.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src='@/assets/curso/temas/tema2/img-22.jpg' data-aos="fade-left" alt="Imagen decorativa")
 
     .d-flex.flex-wrap.mb-5
-      img.col-lg-3.mb-4.mb-lg-auto.mx-auto(src='@/assets/curso/temas/tema2/img-23.png' style="max-width: 261px" data-aos="fade-right")
+      img.col-lg-3.mb-4.mb-lg-auto.mx-auto(src='@/assets/curso/temas/tema2/img-23.png' style="max-width: 261px" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-9.ps-lg-5
         p.mb-4(data-aos="fade-right") El <em>Standard Methods</em> contiene más de 400 métodos para el análisis de agua, debidamente revisados y aprobados por expertos. Estos métodos están divididos en 10 apartados que van desde el apartado 1000 al 10000.
         .d-flex.flex-wrap 
@@ -410,9 +410,10 @@
 
 <script>
 import TabsA from '@/components/TabsA.vue'
+import SlyderB from '@/components/SlyderB.vue'
 export default {
   name: 'Tema2',
-  components: { TabsA },
+  components: { TabsA, SlyderB },
   data: () => ({
     datosSlyder: [
       {
@@ -420,18 +421,21 @@ export default {
         texto:
           'El Sistema Globalmente Armonizado de clasificación y etiquetado de productos químicos es una iniciativa para la protección del medio ambiente y la salud, a través de un sistema de comunicación de peligros armonizado y comprensible para usuarios, fabricantes, trabajadores y consumidores. <br><br>En la elaboración del SGA participaron expertos de distintos países, organizaciones internacionales y otras entidades interesadas, con experiencia en diferentes áreas desde la toxicología hasta la lucha contra incendios.',
         imagen: require('@/assets/curso/temas/tema2/img-17.svg'),
+        altImg: 'Muestra Sistema Globalmente Armonizado [SGA o GHS]',
       },
       {
         titulo: 'SGA comprende los siguientes elementos',
         texto:
           '<b>a)</b>	Criterios armonizados para clasificar sustancias y mezclas con arreglo a sus peligros ambientales, físicos y para la salud. <br><br><b>b)</b>	Elementos armonizados de comunicación de peligros con requisitos sobre etiquetas y fichas de datos de seguridad.',
         imagen: require('@/assets/curso/temas/tema2/img-17.svg'),
+        altImg: 'Muestra SGA comprende los siguientes elementos',
       },
       {
         titulo: 'Herramientas básicas del SGA',
         texto:
           'Para asegurar la comunicación armonizada de los peligros de las sustancias químicas, el SGA cuenta con 3 herramientas básicas: <br><br>● Etiquetas.<br>● Pictogramas.<br>● Fichas de seguridad.',
         imagen: require('@/assets/curso/temas/tema2/img-19.svg'),
+        altImg: 'Muestra Herramientas básicas del SGA',
       },
     ],
   }),
