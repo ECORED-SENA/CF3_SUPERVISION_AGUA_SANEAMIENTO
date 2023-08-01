@@ -392,6 +392,32 @@ export default {
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
+        {
+          nombre: 'Xiomara Becerra Aldana',
+          cargo: 'Instructora ambiental',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Lubin Andrés Hernández Sanabria',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Javier Ricardo Luna Pineda',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro para la Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo de desarrollo curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
       ],
     },
     {
