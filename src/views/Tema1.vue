@@ -33,7 +33,7 @@
     .container-100.mb-5(style="background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(232,243,253,1) 50%, rgba(255,255,255,1) 100%);")
       .col-12.col-lg-10.mx-auto
         .titulo-sexto.color-secundario
-          h5 Figura 1
+          h5 Figura 1.
           p.mb-0.text-small Diagrama de elementos de un plan de muestreo
         figure
           img.mb-3(src="@/assets/curso/temas/tema1/img-6.svg" data-aos="fade-left" alt="Muestra los elementos del plan de muestreo, que son: identificación de la población, número de muestra, POE muestreo, muestra tratamiento de los recipientes, cadena de custodia, submuestreo, tipo de muestra, tamaño de la muestra, calibración y muestreo y tiempo de almacenamiento.")
