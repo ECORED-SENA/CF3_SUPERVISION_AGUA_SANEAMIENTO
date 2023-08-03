@@ -351,7 +351,8 @@ export default {
     {
       referencia:
         'Resolución 0811. <em>Ministerio de Protección Social [MPS] y Ministerio de Ambiente Vivienda y Desarrollo Territorial</em> [MAVDT]. Bogotá. Colombia. 18 de marzo 2020.',
-      link: 'http://www.minvivienda.gov.co/ResolucionesAgua/0811-%202008.pdf',
+      link:
+        'https://normas.cra.gov.co/gestor/docs/resolucion_minproteccion_0811_2008.htm',
     },
     {
       referencia:

@@ -3,12 +3,11 @@
 <head>
   <meta charset="utf-8">
   <!-- Creado con Storyline 360 - http://www.articulate.com  -->
-  <!-- version: 3.75.30269.0 -->
+  <!-- version: 3.76.30446.0 -->
   <title>Actividad did&#225;ctica</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" id="favicon"/>
   <style>
     html, body { height: 100%; padding: 0; margin: 0 }
     #app { height: 100%; width: 100%; }
@@ -29,7 +28,7 @@
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#282828',
-      features: 'AccessibleVideo,BackgroundAudio,ConnectionMessages,FullScreenToggle,InsertSvgPicture,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,StreamingVideo,UpdatedThemeEditor,UseAudioElement,VideoTranscripts',
+      features: 'AccessibleVideo,ConnectionMessages,DropIn1,FullScreenToggle,InsertSvgPicture,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,StreamingVideo,UpdatedThemeEditor,UseAudioElement,VideoTranscripts',
       themeName: 'unified',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
@@ -37,10 +36,10 @@
       publishSource: 'storyline',
       aid: 'aid|5304b41d-7af7-4125-b8d1-83eb222823e2',
       cid: '04bfd34e-cd07-4569-9f02-371561cab23e',
-      playerVersion: '3.75.30269.0',
-      publishTimestamp: '2023-05-24T18:29:34.3418082Z',
+      playerVersion: '3.76.30446.0',
+      publishTimestamp: '2023-08-02T16:06:29.8512268Z',
       maxIosVideoElements: 10,
-      connectionSettings: { message: 'Est%C3%A1s%20fuera%20de%20l%C3%ADnea.%20Tratando%20de%20reconectar...', useDarkTheme: false },
+      connectionSettings: { message: 'Est%C3%A1s%20fuera%20de%20l%C3%ADnea.%20Tratando%20de%20reconectar...', useDarkTheme: false, mode: 'disabled' },
 
       
       parseParams: function(qs) {
@@ -240,22 +239,20 @@
       retryDelay: 500
     };
 
-    // @TODO this is POC code and can be cleaned up a bit more if we move forward
-    // with the feature
-
-
+    var connectionSettings = window.globals.connectionSettings || {};
 
     // The `window.globals.features` variable must be set in `webpack.dev.config` when testing locally - it is not enough
     // to have it in the data - but it must be set there as well.
     var useConnectionMessages = window.AbortController != null &&
       window.location.protocol != 'file:' &&
-      window.globals.features.indexOf('ConnectionMessages') != -1;
+      window.globals.features.indexOf('ConnectionMessages') != -1 &&
+      connectionSettings.mode === 'normal';
 
     window.DS.connection.useConnectionMessages = useConnectionMessages
 
     var assetCount = 0;
     var checkLoadedId;
-    var connectionSettings = window.globals.connectionSettings;
+
 
     if (useConnectionMessages && connectionSettings != null) {
       var contentEl = document.querySelector('.warn-connection-content');
