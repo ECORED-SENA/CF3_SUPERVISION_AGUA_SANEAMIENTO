@@ -264,7 +264,7 @@
               p.text-white Para ampliar información acerca de directrices para la preservación y manejo de muestras, lo invitamos a consultar Icontec (2004), NTC 5667-3, que se encuentra en la Biblioteca digital del SENA, en la base de datos de Icontec. Ir a Icontec, buscar norma NTC 5667 y escoger NTC 5667-3:2004.
             .col-sm-auto
               a.boton.color-primario(href="http://biblioteca.SENA.edu.co/paginas/bases.html" target="_blank")
-                span Ir a página
+                span Enlace del sitio web
                 i.fas.fa-link
 
     h4.mb-5 Aclaraciones pertinentes
@@ -292,7 +292,7 @@
               p.text-white Se presenta un cuadro resumen en el capítulo 7° del Instituto Nacional de Salud [INS] (2011), en su Manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo humano para análisis de laboratorios, que lo invitamos a consultar.
             .col-sm-auto
               a.boton.color-primario(href="https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP/2011%20Manual%20toma%20de%20muestras%20agua.pdf" target="_blank")
-                span Ir a página
+                span Enlace del sitio web
                 i.fas.fa-link
     Separador
 
@@ -313,7 +313,7 @@
           img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/pasos-1.svg" style="max-width: 57px" data-aos="fade-right" alt="Imagen decorativa")
           p.col-md.ps-md-4.mb-0(data-aos="fade-left") Las muestras deben registrarse en cuanto lleguen al laboratorio. El procedimiento de entrada y registro de la muestra es importante para los propósitos de la cadena de custodia. La siguiente información debe requerirse: número de código de la muestra, nombre de la persona que recibe, nombre de los tomadores de la muestra, número del método de muestreo y localización de almacenamiento.
         .d-flex.flex-wrap
-          p.order-2.order-md-1.col-md.pe-md-4.mb-0(data-aos="fade-right") Se debe inspeccionar el etiquetado y rotulado, y compararlo con el registro de campo, si es conforme (si concuerdan y es acorde con los procedimientos técnicos) el que recibe firmará la recepción incluyendo fecha y hora.
+          p.order-2.order-md-1.col-md.pe-md-4.mb-0(data-aos="fade-right") Se debe inspeccionar el etiquetado y rotulado, y compararlo con el registro de campo, si es conforme (si concuerdan y es acorde con los procedimientos técnicos) el que recibe firmará la recepción, incluyendo fecha y hora.
           img.ms-auto.mb-4.mb-md-auto.order-1.order-md-2(src="@/assets/curso/temas/tema1/pasos-2.svg" style="max-width: 86px" data-aos="fade-left" alt="Imagen decorativa")
         .d-flex.flex-wrap
           img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/pasos-3.svg" style="max-width: 80px" data-aos="fade-right" alt="Imagen decorativa")
@@ -373,7 +373,7 @@
               p.text-white Para la consulta de estas guías puede dirigirse a la base de datos del Icontec, que se encuentre en la página de la Biblioteca SENA. Debe ingresar a Biblioteca SENA,  ir a Icontec, buscar norma GTC 100 y escoger NTC GTC 100:2004 / GTC 109: 2004.
             .col-sm-auto
               a.boton.color-primario(href="http://biblioteca.SENA.edu.co/paginas/bases.html" target="_blank")
-                span Ir a página
+                span Enlace del sitio web
                 i.fas.fa-link
     
     h3.mb-4 Diagramas de resumen
@@ -395,7 +395,7 @@
               p.text-white Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM]. (s.f.). Toma y preservación de muestras. Después de ingresar, en la búsqueda, ubicar el documento “Toma y preservación de muestras”, dirigirse a la página 17 a la 20 y analizar.
             .col-sm-auto
               a.boton.color-primario(href="http://sgi.ideam.gov.co/documents/412030/35488871/M-S-LC-I004+INSTRUCTIVO+DE+TOMA+Y+PRESERVACI%C3%93N+DE+MUESTRAS+SEDIMENTOS+Y+AGUA+SUPERFICIAL+PARA+LA+RED+DE+MONITOREO+DE+CALIDAD+DEL+IDEAM+v3.pdf/477bbe4a-5825-49c8-9961-10805a3c2288?version=1.0" target="_blank")
-                span Ir a página
+                span Enlace del sitio web
                 i.fas.fa-link
 </template>
 

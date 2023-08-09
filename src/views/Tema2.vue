@@ -36,7 +36,7 @@
                   p.text-white Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM]. (s.f.). Toma y preservación de muestras.
                 .col-sm-auto
                   a.boton.color-primario(href="http://sgi.ideam.gov.co/documents/412030/35488871/M-S-LC-I004+INSTRUCTIVO+DE+TOMA+Y+PRESERVACI%C3%93N+DE+MUESTRAS+SEDIMENTOS+Y+AGUA+SUPERFICIAL+PARA+LA+RED+DE+MONITOREO+DE+CALIDAD+DEL+IDEAM+v3.pdf/477bbe4a-5825-49c8-9961-10805a3c2288?version=1.0" target="_blank")
-                    span Ir a página
+                    span Enlace del sitio web
                     i.fas.fa-link
     p.mb-5(data-aos="fade-right") En caso de que se presente cualquier novedad durante la verificación, es necesario dejar el registro en el formato definido por el laboratorio para la actividad.
 
@@ -102,7 +102,7 @@
                 p.text-white Después de ingresar, en la búsqueda, ubicar “Manual toma de muestras de agua”. Al abrir este documento se obtiene el <b>“Manual de instrucciones para la toma, preservación, transporte de muestras de agua para consumo humano para análisis de laboratorio”</b>. ISBN 978-958-13-0147-8.
               .col-sm-auto
                 a.boton.color-primario(href="https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP/2011%20Manual%20toma%20de%20muestras%20agua.pdf" target="_blank")
-                  span Ir a página
+                  span Enlace del sitio web
                   i.fas.fa-link
 
       .w-100.titulo-edit
@@ -147,7 +147,7 @@
                 |Debe ingresar a Biblioteca SENA, ir a ICONTEC, buscar norma NTC 5667-14 y escoger NTC-ISO 5667-14:1999
             .col-sm-auto
               a.boton.color-primario(href="http://biblioteca.SENA.edu.co/paginas/bases.html" target="_blank")
-                span Ir a página
+                span Enlace del sitio web
                 i.fas.fa-link
     
     .w-100.titulo-edit.mb-5
@@ -291,7 +291,7 @@
               p.text-white Para ampliar la información del Sistema Globalmente Armonizado de Clasificación y Etiquetado de productos químicos puede ingresar a la siguiente página y explorar su contenido:
             .col-sm-auto
               a.boton.color-primario(href="http://ghs-sga.com/" target="_blank")
-                span Ir a página
+                span Enlace del sitio web
                 i.fas.fa-link
     Separador
     
@@ -381,7 +381,7 @@
               p.text-white Para consultar las normas internacionales por las cuales también son regidos los ensayos de laboratorio que se realizan en el país, puede consultar los <em>Standard Methods for the examination of water and wastewater</em>. Ingrese al siguiente link y explore la página. 
             .col-sm-auto
               a.boton.color-primario(href="https://www.standardmethods.org/" target="_blank")
-                span Ir a página
+                span Enlace del sitio web
                 i.fas.fa-link
 
     .w-100.titulo-edit.pt-md-4.mb-5
@@ -404,7 +404,7 @@
               p.text-white Recuerde que estas normas y guías del Icontec pueden ser consultadas a través de las bases de datos disponibles en la Biblioteca SENA, en el siguiente enlace:
             .col-sm-auto
               a.boton.color-primario(href="http://biblioteca.SENA.edu.co/paginas/bases.html" target="_blank")
-                span Ir a página
+                span Enlace del sitio web
                 i.fas.fa-link
 </template>
 

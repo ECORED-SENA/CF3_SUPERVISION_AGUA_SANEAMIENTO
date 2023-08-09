@@ -76,7 +76,7 @@ export default {
           },
           {
             numero: '2.2',
-            titulo: 'Formatos de registros de laboratorios',
+            titulo: 'Formatos y registros de laboratorios',
             hash: 't_2_2',
           },
           {
@@ -285,7 +285,7 @@ export default {
     {
       referencia:
         'Instituto Nacional de Salud [INS]. (2011). <em>Manual de instrucciones para la toma, preservación, transporte de muestras de agua para consumo humano para análisis de laboratorio.</em> ISBN 978-958-13-0147-8.',
-      link: 'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP',
+      link: '',
     },
     {
       referencia:
@@ -396,22 +396,23 @@ export default {
         {
           nombre: 'Xiomara Becerra Aldana',
           cargo: 'Instructora ambiental',
-          centro: 'Centro de Gestión Industrial',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Lubin Andrés Hernández Sanabria',
           cargo: 'Instructor',
-          centro: 'Centro de Gestión Industrial',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Javier Ricardo Luna Pineda',
           cargo: 'Diseñador instruccional',
-          centro: 'Centro para la Industria de la Comunicación Gráfica',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
           cargo: 'Evaluadora instruccional',
-          centro: 'Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
