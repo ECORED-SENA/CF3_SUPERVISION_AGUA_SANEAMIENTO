@@ -387,7 +387,7 @@
     .w-100.titulo-edit.pt-md-4.mb-5
       h3 Normas ISO
     
-    p.mb-5(data-aos="fade-right") Las normas ISO son otro referente importante para el muestreo y análisis microbiológico y fisicoquímico del agua, elaborados por la organización internacional de normalización ISO con sede en Ginebra suiza y conformada por más de 160 países miembros.
+    p.mb-5(data-aos="fade-right") Las normas ISO son otro referente importante para el muestreo y análisis microbiológico y fisicoquímico del agua, elaborados por la organización internacional de normalización ISO con sede en Ginebra Suiza y conformada por más de 160 países miembros.
 
     figure.mb-5(data-aos="fade-left")
       .video
